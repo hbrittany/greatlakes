@@ -19,7 +19,7 @@ html {
 	text-size-adjust: 100%;
     
     font-size: 100%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Raleway, Helvetica, Arial, sans-serif;
 }
 
 img {
@@ -38,10 +38,16 @@ small {
     color: white;
 }
 
-header {
-	overflow: hidden;
-    background-color: #46C0BE;
+
+.cover {
+    background: #3fd821 url("../images/great-lakes.jpg") no-repeat center center;
+    background-size: cover;
+    padding: 5em 1em 1em;
+    text-align: center;
+    height: 20em;
 }
+
+
 
 footer {
     overflow: hidden;
