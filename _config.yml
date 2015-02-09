@@ -1,0 +1,4 @@
+markdow: redcarpet
+baseurl: /greatlakes
+exclude: ['README.md']
+
