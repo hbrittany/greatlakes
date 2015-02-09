@@ -185,13 +185,6 @@ $(window).load(function() {
 		$(".se-pre-con").fadeOut("slow");;
 	});
 
-$('.video').parallax({
-speed : 0.15
-});
-
-$('.footer-image').parallax({
-speed : 0.15
-});
 
 $('.nav-mobile').bind('click', function(e) {
 		e.preventDefault();
