@@ -37,6 +37,12 @@ header {
     background-color: #46C0BE;
 }
 
+footer {
+    overflow: hidden;
+    background-color: #46C0BE;
+    
+}
+
 .logo {
     width: 15em;
     height: auto;
@@ -48,8 +54,8 @@ header {
 }
 
 .hamburger {
-    height: 46px;
-    width: 46px;
+    height: 120px;
+    width: 120px;
 	overflow: hidden;
     position: absolute;
     top: 24px;
@@ -66,8 +72,8 @@ header {
 .nav-btn,
 .nav-btn:link,
 .nav-btn:visited {
-	height: 46px;
-    width: 46px;
+	height: 60px;
+    width: 60px;
 	overflow: hidden;
     position: absolute;
     top: 24px;
