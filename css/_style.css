@@ -52,23 +52,35 @@ header {
   margin: 50% auto;
   position: absolute;
   top: -6em;
-  left: 2.5em;
+  left: 10%;
   right: auto; }
 
-/* The toggle (hamburger) */
-/* line 56, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
-.nav-btn, .nav-btn:link, .nav-btn:visited {
+/* line 50, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+.hamburger {
   height: 46px;
   width: 46px;
   overflow: hidden;
   position: absolute;
   top: 24px;
   right: 5%;
+  background: transparent url("../images/donate-button.svg") no-repeat 0 0;
+  text-indent: 100%;
+  white-space: nowrap; }
+
+/* The toggle (hamburger) */
+/* line 68, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+.nav-btn, .nav-btn:link, .nav-btn:visited {
+  height: 46px;
+  width: 46px;
+  overflow: hidden;
+  position: absolute;
+  top: 24px;
+  left: 5%;
   background: transparent url("../images/hamburger.svg") no-repeat 0 0;
   text-indent: 100%;
   white-space: nowrap; }
 
-/* line 71, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+/* line 83, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
 .nav-top {
   max-height: 0;
   background-color: black;
@@ -76,18 +88,18 @@ header {
   /* Animation on open */
   transition: all 250ms linear; }
 
-/* line 84, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+/* line 96, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
 .nav-top[data-state="expanded"] {
   max-height: 14em
   /* max height of dropdown */ }
 
-/* line 88, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+/* line 100, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
 .nav-top ul {
   margin: 0;
   padding: 1.5rem 0;
   list-style-type: none; }
 
-/* line 96, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+/* line 108, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
 .nav-top a, .nav-top a:link, .nav-top a:visited {
   display: block;
   font-size: 1.25em;
@@ -95,42 +107,42 @@ header {
   color: white;
   text-decoration: none; }
 
-/* line 104, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+/* line 116, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
 article {
   margin: 0;
   padding: 1.5rem 5%; }
 
-/* line 109, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+/* line 121, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
 h1 {
   margin: 0 0 1.5rem;
   padding: 0;
   font-size: 2rem; }
 
-/* line 115, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+/* line 127, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
 figure {
   margin: 0 auto 1.5rem;
   width: 60%; }
 
-/* line 120, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+/* line 132, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
 figure a {
   font-size: 0.875rem;
   color: black;
   text-decoration: none; }
 
-/* line 126, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+/* line 138, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
 .nav-bottom {
   margin: 0;
   padding: 1.5rem 5% 6rem;
   background-color: #46C0BE;
   overflow: hidden; }
 
-/* line 133, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+/* line 145, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
 .nav-bottom ul {
   list-style-type: none;
   margin: 0;
   padding: 0; }
 
-/* line 141, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+/* line 153, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
 .nav-bottom a, .nav-bottom a:link, .nav-bottom a:visited {
   color: white;
   text-decoration: none;

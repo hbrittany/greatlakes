@@ -43,10 +43,22 @@ header {
     margin: 50% auto;
     position: absolute;
     top: -6em;
-    left: 2.5em;
+    left: 10%;
     right: auto;
-    
-    
+}
+
+.hamburger {
+    height: 46px;
+    width: 46px;
+	overflow: hidden;
+    position: absolute;
+    top: 24px;
+    right: 5%;
+	
+	background: transparent url("../images/donate-button.svg") no-repeat 0 0;
+
+	text-indent: 100%;
+	white-space: nowrap; 
 }
 
 /* The toggle (hamburger) */
@@ -59,7 +71,7 @@ header {
 	overflow: hidden;
     position: absolute;
     top: 24px;
-    right: 5%;
+    left: 5%;
 	
 	background: transparent url("../images/hamburger.svg") no-repeat 0 0;
 
