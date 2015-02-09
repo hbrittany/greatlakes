@@ -32,6 +32,12 @@ body {
 	padding: 0;
 }
 
+small {
+    text-align: center;
+    padding: 1em;
+    color: white;
+}
+
 header {
 	overflow: hidden;
     background-color: #46C0BE;
@@ -40,6 +46,14 @@ header {
 footer {
     overflow: hidden;
     background-color: #46C0BE;
+}
+
+.center {
+    text-align:center;
+}
+
+.white {
+    color: white;
 }
 
 .row {
