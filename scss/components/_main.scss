@@ -38,10 +38,15 @@ header {
 }
 
 .logo {
-    width: 4.5rem;
+    width: 15em;
     height: auto;
-    margin: 1.5rem 5%;
-    float: left;
+    margin: 50% auto;
+    position: absolute;
+    top: -6em;
+    left: 2.5em;
+    right: auto;
+    
+    
 }
 
 /* The toggle (hamburger) */
