@@ -1,38 +1,44 @@
 <!DOCTYPE html>
 <html lang="en-ca">
 <head>
-	<meta charset="utf-8">
-	<title>Allaince for the Great Lakes</title>
-	<link href="css/_style.css" rel="stylesheet">
-	<meta name="handheldfriendly" content="true">
-	<meta name="mobileoptimized" content="240">
-	<meta name="viewport" content="width=device-width,initial-scale=1">
+ ---
+layout: default
+title: Tuts+ GitHub Pages
+slug: tuts-github-pages
+--- 
+<meta charset="utf-8">
+<title>Allaince for the Great Lakes</title>
+<link href="css/style.css" rel="stylesheet">
+
+<meta name="handheldfriendly" content="true">
+<meta name="mobileoptimized" content="240">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
-</head>
-<body>
+
+<nav class="menu-opener">
+    <div class="menu-opener-inner"></div>
+  </nav>
+  <nav class="menu">
+    <ul class="menu-inner">
+      <a href="#about" class="menu-link">
+        <li>Who Are We</li>
+      </a>
+      <a href="#portfolio" class="menu-link">
+        <li>Great Lakes Issues</li>
+      </a>
+      <a href="#contact" class="menu-link">
+        <li>Get Involved</li>
+      </a>
+    </ul>
+  </nav>
+
     
 <header>
-    
-    <div class"relative">
-        <div class="cover"></div>
         <a class="logo" href="index.html">
             <img src="images/logo.svg" class="logo">
         </a>
-    </div>
-		
-        <a href="#nav" class="nav-btn" data-state="inactive">Navigate</a>
-        
-        <a href="#" class="hamburger"></a>
-	
-		<nav class="nav-top">	
-            <ul>
-				<li><a href="#">Who We Are</a></li>
-				<li><a href="#">Great Lakes Issues</a></li>
-                <li><a href="#">Get Involved</a></li>
-			</ul>
-        </nav>
-	
-</header>
+</header> 
+       
     
 <article>
         
@@ -58,7 +64,13 @@
     
 </footer>
         
-<script src="js/toggle.js"></script>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="js/toggle.js"></script>
 
-</body>
-</html>
+<script src="js/hammer.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/scroll.js"></script>
+<script src="js/menu-opener.js"></script>  
+
+</head>
+<body>
