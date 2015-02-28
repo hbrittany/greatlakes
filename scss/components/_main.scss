@@ -22,6 +22,27 @@ body {
   box-sizing: border-box;
 }
 
+header {
+    margin: 0;
+    padding: 0;
+}
+
+article {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    margin: 0;
+    padding: 0;
+}
+
+.light-blue {
+    background-color: #21637F;
+    margin: 0em;
+    padding: 1.5em;
+}
+
 .img-flex {
     width: 100%;
 }
