@@ -3,7 +3,13 @@
 
 html{
 font-family: "Open Sans";
-    
+margin: 0em;
+padding: 0em;
+}
+
+body {
+    margin: 0em;
+    padding: 0em;
 }
 
 *,
@@ -15,6 +21,11 @@ font-family: "Open Sans";
   -o-box-sizing: border-box;
   box-sizing: border-box;
 }
+
+.img-flex {
+    width: 100%;
+}
+
 
 a {
   display: block;
