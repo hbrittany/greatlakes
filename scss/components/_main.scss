@@ -108,12 +108,14 @@ a {
 
 footer {
     background-color: #21637F;
-    padding: 2em;
+    padding: 1em;
 }
 
 .footer {
     color: white;
     text-align: center;
+    padding-bottom: 1em;
+    margin: 0em;
 }
 
 .menu-opener, .menu-opener:hover, .menu-opener.active, .menu-opener-inner, .menu-opener-inner::before, .menu-opener-inner::after, .menu, .menu.active {
