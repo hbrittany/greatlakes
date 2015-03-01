@@ -2416,18 +2416,37 @@ h3 {
   text-align: center;
   color: #fff;
   font-weight: 400;
-  margin: 3.5em 2.5em 1.5em 2.5em;
+  margin: 1.5em 2.5em;
   font-size: 1.3em;
-  line-height: 1.4em; }
+  line-height: 1.4em;
+  font-weight: bold; }
 
-/* line 35, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/typography */
+/* line 36, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/typography */
 .light-blue {
   background-color: #21637F;
   margin: 0em;
   padding: 1.5em; }
 
-/* line 41, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/typography */
+/* line 42, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/typography */
 .dark-blue {
   background-color: #004371;
   margin: 0em;
-  padding: 1.5em; }
+  padding: 1.5em 0em; }
+
+/* line 48, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/typography */
+.baby-blue {
+  background-color: #B9E4F5;
+  margin: 0em;
+  padding: 0.1em 0em; }
+
+/* line 54, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/typography */
+.blue-text {
+  color: #004371; }
+
+/* line 58, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/typography */
+.white {
+  color: white; }
+
+/* line 62, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/typography */
+.top-spacing {
+  margin-top: 3.5em; }
