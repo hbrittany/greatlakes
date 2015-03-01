@@ -49,6 +49,35 @@ div {
     width: 10em;
 }
 
+.padding {
+   padding: 4em 0; 
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    padding: 0.5em 1em;
+    background-color:#fff;
+    border-radius: 20px;
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+    border: 0;
+    color:#21637F;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.5em;
+    text-align: center;
+    width: 8em;
+    margin: 0 4em;
+    
+.btn-alt,
+.btn-alt:link,
+.btn-alt:visited {
+    background-color: #21637F;
+    color: #fff;
+    }
+}
+
 .close {
     width: 1.3em;
     margin:1em;
