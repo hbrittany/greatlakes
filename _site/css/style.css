@@ -12,6 +12,7 @@
   font-weight: normal;
   font-style: normal; }
 
+<<<<<<< HEAD
 
 .fa {
   display: inline-block;
@@ -2100,6 +2101,186 @@
 
 /* line 1670, /Users/Sebastian/Desktop/greatlakes/scss/components/font-awesome */
 =======
+=======
+/* line 14, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+/* makes the font 33% larger relative to the icon container */
+/* line 23, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-lg {
+  font-size: 1.33333333em;
+  line-height: 0.75em;
+  vertical-align: -15%; }
+
+/* line 28, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-2x {
+  font-size: 2em; }
+
+/* line 31, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-3x {
+  font-size: 3em; }
+
+/* line 34, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-4x {
+  font-size: 4em; }
+
+/* line 37, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-5x {
+  font-size: 5em; }
+
+/* line 40, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-fw {
+  width: 1.28571429em;
+  text-align: center; }
+
+/* line 44, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-ul {
+  padding-left: 0;
+  margin-left: 2.14285714em;
+  list-style-type: none; }
+
+/* line 49, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-ul > li {
+  position: relative; }
+
+/* line 52, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-li {
+  position: absolute;
+  left: -2.14285714em;
+  width: 2.14285714em;
+  top: 0.14285714em;
+  text-align: center; }
+
+/* line 59, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-li.fa-lg {
+  left: -1.85714286em; }
+
+/* line 62, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-border {
+  padding: 0.2em 0.25em 0.15em;
+  border: solid 0.08em #eeeeee;
+  border-radius: 0.1em; }
+
+/* line 67, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.pull-right {
+  float: right; }
+
+/* line 70, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.pull-left {
+  float: left; }
+
+/* line 73, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa.pull-left {
+  margin-right: 0.3em; }
+
+/* line 76, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa.pull-right {
+  margin-left: 0.3em; }
+
+/* line 79, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-spin {
+  -webkit-animation: fa-spin 2s infinite linear;
+  animation: fa-spin 2s infinite linear; }
+
+@-webkit-keyframes fa-spin {
+  /* line 84, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  /* line 88, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg); } }
+
+@keyframes fa-spin {
+  /* line 94, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  /* line 98, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg); } }
+
+/* line 103, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-rotate-90 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg); }
+
+/* line 109, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-rotate-180 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg); }
+
+/* line 115, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-rotate-270 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg); }
+
+/* line 121, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-flip-horizontal {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);
+  -webkit-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1); }
+
+/* line 127, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-flip-vertical {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
+  -webkit-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  transform: scale(1, -1); }
+
+/* line 137, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+:root .fa-rotate-90, :root .fa-rotate-180, :root .fa-rotate-270, :root .fa-flip-horizontal, :root .fa-flip-vertical {
+  -webkit-filter: none;
+          filter: none; }
+
+/* line 140, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-stack {
+  position: relative;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle; }
+
+/* line 149, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-stack-1x, .fa-stack-2x {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center; }
+
+/* line 155, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-stack-1x {
+  line-height: inherit; }
+
+/* line 158, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-stack-2x {
+  font-size: 2em; }
+
+/* line 161, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-inverse {
+  color: #ffffff; }
+
+/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+   readers do not read off random characters that represent icons */
+>>>>>>> header
 /* line 166, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
 .fa-glass:before {
   content: "\f000"; }
@@ -4012,9 +4193,18 @@
 .fa-shekel:before, .fa-sheqel:before, .fa-ils:before {
   content: "\f20b"; }
 
+<<<<<<< HEAD
 .fa-meanpath:before {
   content: "\f20c"; }
   
+=======
+/* line 1670, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-meanpath:before {
+  content: "\f20c"; }
+
+/* Toggle Menu -------------------- */
+/* line 4, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+>>>>>>> header
 html {
   font-family: "Open Sans";
   margin: 0em;
@@ -4026,11 +4216,15 @@ body {
   padding: 0em; }
 
 /* line 17, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+<<<<<<< HEAD
 
+=======
+>>>>>>> header
 *, *::before, *::after {
   -ms-box-sizing: border-box;
   -o-box-sizing: border-box;
   box-sizing: border-box; }
+<<<<<<< HEAD
 /* line 19, /Users/Sebastian/Desktop/greatlakes/scss/components/main */
 a {
   display: block;
@@ -4041,6 +4235,8 @@ a {
 .menu-opener, .menu-opener:hover, .menu-opener.active, .menu-opener-inner, .menu-opener-inner::before, .menu-opener-inner::after, .menu, .menu.active {
   transition: 250ms all; }
 
+=======
+>>>>>>> header
 
 /* line 25, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
 header {
@@ -4058,6 +4254,7 @@ div {
   padding: 0; }
 
 /* line 40, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+<<<<<<< HEAD
 .img-flex {
   width: 100%; }
 
@@ -4101,11 +4298,32 @@ div {
   padding: 0.1em 0em; }
 
 /* line 88, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+=======
+.light-blue {
+  background-color: #21637F;
+  margin: 0em;
+  padding: 1.5em; }
+
+/* line 46, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+.img-flex {
+  width: 100%; }
+
+/* line 50, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+.logo {
+  width: 20em; }
+
+/* line 54, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+.donate {
+  width: 10em; }
+
+/* line 59, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+>>>>>>> header
 a {
   width: 100%;
   height: 100%;
   color: white; }
 
+<<<<<<< HEAD
 /* line 94, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
 .margin-top {
   margin-top: 4em; }
@@ -4140,12 +4358,16 @@ a {
   font-size: 0.8em; }
 
 /* line 127, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+=======
+/* line 66, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+>>>>>>> header
 .row {
   display: inline-block;
   margin: 0 1em;
   color: white;
   text-decoration: none; }
 
+<<<<<<< HEAD
 /* line 134, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
 .center {
   width: 50% auto; }
@@ -4167,6 +4389,27 @@ footer {
   transition: 250ms all; }
 
 
+=======
+/* line 73, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+.center {
+  width: 50% auto; }
+
+/* line 77, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+footer {
+  background-color: #21637F;
+  padding: 2em; }
+
+/* line 82, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+.footer {
+  color: white;
+  text-align: center; }
+
+/* line 87, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+.menu-opener, .menu-opener:hover, .menu-opener.active, .menu-opener-inner, .menu-opener-inner::before, .menu-opener-inner::after, .menu, .menu.active {
+  transition: 250ms all; }
+
+/* line 95, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+>>>>>>> header
 .menu-opener {
   cursor: pointer;
   height: 64px;
@@ -4181,10 +4424,18 @@ footer {
   width: 64px;
   background: #fff; }
 
+<<<<<<< HEAD
+=======
+/* line 111, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+>>>>>>> header
 .menu-opener:hover, .menu-opener.active {
   background: #fff;
   position: absolute; }
 
+<<<<<<< HEAD
+=======
+/* line 116, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+>>>>>>> header
 .menu-opener-inner {
   background: #2DBDCD;
   height: 0.5rem;
@@ -4192,7 +4443,11 @@ footer {
   margin-top: 1.75rem;
   width: 2.5rem; }
 
+<<<<<<< HEAD
 
+=======
+/* line 124, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+>>>>>>> header
 .menu-opener-inner::before, .menu-opener-inner::after {
   background: #2DBDCD;
   content: '';
@@ -4200,17 +4455,26 @@ footer {
   height: 0.5rem;
   width: 2.5rem; }
 
+<<<<<<< HEAD
 
+=======
+/* line 133, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+>>>>>>> header
 .menu-opener-inner::before {
   -webkit-transform: translateY(-0.75rem);
   -ms-transform: translateY(-0.75rem);
   transform: translateY(-0.75rem); }
 
+<<<<<<< HEAD
+=======
+/* line 141, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+>>>>>>> header
 .menu-opener-inner::after {
   -webkit-transform: translateY(0.25rem);
   -ms-transform: translateY(0.25rem);
   transform: translateY(0.25rem); }
 
+<<<<<<< HEAD
 
 /* line 87, /Users/Sebastian/Desktop/greatlakes/scss/components/main */
 .menu-opener-inner.active {
@@ -4223,17 +4487,32 @@ footer {
 
 /* line 216, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
 
+=======
+/* line 149, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+.menu-opener-inner.active {
+  background: transparent; }
+
+/* line 153, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+>>>>>>> header
 .menu-opener-inner.active::before {
   -webkit-transform: translateY(0rem) rotate(-45deg);
   -ms-transform: translateY(0rem) rotate(-45deg);
   transform: translateY(0rem) rotate(-45deg); }
 
+<<<<<<< HEAD
 
+=======
+/* line 161, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+>>>>>>> header
 .menu-opener-inner.active::after {
   -webkit-transform: translateY(-0.5rem) translateX(0rem) rotate(45deg);
   -ms-transform: translateY(-0.5rem) translateX(0rem) rotate(45deg);
   transform: translateY(-0.5rem) translateX(0rem) rotate(45deg); }
 
+<<<<<<< HEAD
+=======
+/* line 169, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+>>>>>>> header
 .menu {
   background: #2DBDCD;
   color: transparent;
@@ -4248,11 +4527,16 @@ footer {
   user-select: none;
   width: 0rem; }
 
+<<<<<<< HEAD
+=======
+/* line 185, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+>>>>>>> header
 .menu.active {
   width: calc(100% - 2rem);
   position: absolute;
   z-index: 1; }
 
+<<<<<<< HEAD
 
 /* line 129, /Users/Sebastian/Desktop/greatlakes/scss/components/main */
 .menu.active .menu-link {
@@ -4265,6 +4549,13 @@ footer {
   color: #FFF; }
 
 
+=======
+/* line 191, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+.menu.active .menu-link {
+  color: #FFF; }
+
+/* line 195, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+>>>>>>> header
 .menu-inner {
   display: -ms-box;
   display: -o-box;
@@ -4296,7 +4587,11 @@ footer {
   margin-left: 4rem;
   padding: 0; }
 
+<<<<<<< HEAD
 
+=======
+/* line 233, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+>>>>>>> header
 .menu-link {
   color: transparent;
   display: -ms-box;
@@ -4325,15 +4620,22 @@ footer {
   font-weight: 100;
   height: 100%;
   text-align: center;
+<<<<<<< HEAD
   text-decoration: none; 
 }
 
 
+=======
+  text-decoration: none; }
+
+/* line 268, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+>>>>>>> header
 .menu-link li {
   margin: auto;
   color: #fff; }
 
 @media screen and (max-width: 768px) {
+<<<<<<< HEAD
 
   /* line 212, /Users/Sebastian/Desktop/greatlakes/scss/components/main */
   .menu {
@@ -4355,10 +4657,22 @@ footer {
 
   /* line 345, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
 
+=======
+  /* line 274, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+  .menu {
+    height: auto; }
+
+  /* line 278, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+  .menu-inner {
+    display: block; }
+
+  /* line 282, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+>>>>>>> header
   .menu-link {
     padding: 10px 0;
     font-size: 1.2em; }
 
+<<<<<<< HEAD
 
   /* line 225, /Users/Sebastian/Desktop/greatlakes/scss/components/main */
   .menu.active {
@@ -4366,13 +4680,20 @@ footer {
  }
 
   /* line 350, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+=======
+  /* line 287, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+>>>>>>> header
   .menu.active {
     width: calc(100% - 0.5rem); }
  }
 
 /* line 1, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/typography */
 p {
+<<<<<<< HEAD
   margin: 2.2em 2em;
+=======
+  margin: 2em;
+>>>>>>> header
   font-family: 'FontAwesome', Helvetica, Arial, sans-serif;
   font-size: 1em;
   line-height: 1.5em; }
@@ -4389,6 +4710,7 @@ h1 {
 h2 {
   font-family: 'FontAwesome', Helvetica, Arial sans-serif;
   text-align: center;
+<<<<<<< HEAD
   color: #21637F;
   font-weight: bolder;
   margin: 1.2em 0em 0.7em 0em;
@@ -4443,3 +4765,7 @@ h4 {
 .top-spacing {
   margin-top: 3.5em; }
 >>>>>>> get-involved
+=======
+  color: white;
+  font-weight: bolder; }
+>>>>>>> header
