@@ -1,0 +1,4 @@
+permalink: pretty
+markdown: redcarpet
+baseurl: /greatlakes
+exclude:["README.md","scss","prepros.cfg"]
