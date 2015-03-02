@@ -1,1 +1,2 @@
-exclude:[‘README.md’,’scss’,’prepros.cfg’]
+exclude:['README.md’,’scss’,’prepros.cfg’]
+permalink: pretty
