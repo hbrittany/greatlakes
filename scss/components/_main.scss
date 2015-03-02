@@ -3,6 +3,7 @@
 
 html{
 font-family: "Open Sans";
+<<<<<<< HEAD
     
 }
 
@@ -30,6 +31,160 @@ a {
   transition: 250ms all;
 }
 
+=======
+margin: 0em;
+padding: 0em;
+}
+
+body {
+    margin: 0em;
+    padding: 0em;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+}
+
+article {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    margin: 0;
+    padding: 0;
+}
+
+.img-flex {
+    width: 100%;
+}
+
+.logo {
+    width: 20em;
+}
+
+.donate {
+    width: 10em;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    padding: 0.5em 1em;
+    background-color:#fff;
+    border-radius: 20px;
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+    border: 0;
+    color:#21637F;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.5em;
+    text-align: center;
+    width: 8em;
+    margin: 0 4em;
+    
+.btn-alt,
+.btn-alt:link,
+.btn-alt:visited {
+    background-color: #21637F;
+    color: #fff;
+    }
+}
+
+.close {
+    width: 1.3em;
+    margin:1em;
+    float: right;
+}
+
+div {
+    margin: 0em;
+    padding: 0.1em 0em;   
+}
+
+a {
+  width: 100%;
+  height: 100%;
+    color: white;
+}
+
+.margin-top {
+    margin-top: 4em;
+}
+
+.left-align {
+    float:left;
+}
+
+.menu-items-small{
+    padding: 0.9em;
+    float: right;
+    background-color: #21637F;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    text-align:center;
+    width: 8.8em;
+    height: 5em;
+    font-size: 0.7em;
+}
+
+.menu-items{
+    padding: 0.8em;
+    float:inherit;
+    background-color: #21637F;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    text-align:center;
+    width: 7.4em;
+    font-size: 0.8em;
+}
+
+.row {
+    display: inline-block;
+    margin: 0 1em;
+    color: white;
+    text-decoration: none;
+}
+
+.center {
+    width: 50% auto;
+}
+
+footer {
+    background-color: #21637F;
+    padding: 1em;
+}
+
+.footer {
+    color: white;
+    text-align: center;
+    padding-bottom: 1em;
+    margin: 0em;
+}
+
+.menu-opener, .menu-opener:hover, .menu-opener.active, .menu-opener-inner, .menu-opener-inner::before, .menu-opener-inner::after, .menu, .menu.active {
+  -webkit-transition: 250ms all;
+  -moz-transition: 250ms all;
+  -ms-transition: 250ms all;
+  -o-transition: 250ms all;
+  transition: 250ms all;
+}
+
+>>>>>>> get-involved
 .menu-opener {
   cursor: pointer;
   height: 64px;
