@@ -323,3 +323,36 @@ footer {
     width: calc(100% - 0.5rem);
   }
 }
+
+.hide-text {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.p-description {
+  text-align: center;
+  max-height: 0;
+  -moz-transition: max-height 0.3s ease-out;
+  -webkit-transition: max-height 0.3s ease-out;
+  -o-transition: max-height 0.3s ease-out;
+  transition: max-height 0.3s ease-out;
+  overflow: hidden;
+  color: #004371;
+}
+
+.p-description[data-state="expanded"] {
+  max-height: 22rem;
+}
+
+.down-arrow{
+  height: 35px;
+  width: 35px;
+}
+
+.arrow-div {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 5rem;
+}
