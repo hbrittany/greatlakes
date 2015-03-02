@@ -1,5 +1,4 @@
 <<<<<<< HEAD
-<<<<<<< HEAD
 exclude:['README.md’,’scss’,’prepros.cfg’]
 permalink: pretty
 =======
@@ -7,6 +6,3 @@ markdown: redcarpet
 baseurl: /greatlakes
 exclude:['README.md’, 'prepros.cfg']
 >>>>>>> get-involved
-=======
-exclude:[‘README.md’,’scss’,’prepros.cfg’]
->>>>>>> header
