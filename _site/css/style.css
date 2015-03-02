@@ -1,0 +1,2387 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:100,300,400,700);
+/*!
+ *  Font Awesome 4.2.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+/* FONT PATH
+ * -------------------------- */
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot?v=4.2.0');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.2.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff?v=4.2.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.2.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal; }
+
+/* line 14, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+/* makes the font 33% larger relative to the icon container */
+/* line 23, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-lg {
+  font-size: 1.33333333em;
+  line-height: 0.75em;
+  vertical-align: -15%; }
+
+/* line 28, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-2x {
+  font-size: 2em; }
+
+/* line 31, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-3x {
+  font-size: 3em; }
+
+/* line 34, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-4x {
+  font-size: 4em; }
+
+/* line 37, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-5x {
+  font-size: 5em; }
+
+/* line 40, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-fw {
+  width: 1.28571429em;
+  text-align: center; }
+
+/* line 44, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-ul {
+  padding-left: 0;
+  margin-left: 2.14285714em;
+  list-style-type: none; }
+
+/* line 49, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-ul > li {
+  position: relative; }
+
+/* line 52, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-li {
+  position: absolute;
+  left: -2.14285714em;
+  width: 2.14285714em;
+  top: 0.14285714em;
+  text-align: center; }
+
+/* line 59, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-li.fa-lg {
+  left: -1.85714286em; }
+
+/* line 62, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-border {
+  padding: 0.2em 0.25em 0.15em;
+  border: solid 0.08em #eeeeee;
+  border-radius: 0.1em; }
+
+/* line 67, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.pull-right {
+  float: right; }
+
+/* line 70, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.pull-left {
+  float: left; }
+
+/* line 73, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa.pull-left {
+  margin-right: 0.3em; }
+
+/* line 76, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa.pull-right {
+  margin-left: 0.3em; }
+
+/* line 79, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-spin {
+  -webkit-animation: fa-spin 2s infinite linear;
+  animation: fa-spin 2s infinite linear; }
+
+@-webkit-keyframes fa-spin {
+  /* line 84, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  /* line 88, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg); } }
+
+@keyframes fa-spin {
+  /* line 94, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+
+  /* line 98, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg); } }
+
+/* line 103, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-rotate-90 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg); }
+
+/* line 109, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-rotate-180 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg); }
+
+/* line 115, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-rotate-270 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg); }
+
+/* line 121, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-flip-horizontal {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);
+  -webkit-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1); }
+
+/* line 127, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-flip-vertical {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
+  -webkit-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  transform: scale(1, -1); }
+
+/* line 137, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+:root .fa-rotate-90, :root .fa-rotate-180, :root .fa-rotate-270, :root .fa-flip-horizontal, :root .fa-flip-vertical {
+  -webkit-filter: none;
+          filter: none; }
+
+/* line 140, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-stack {
+  position: relative;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle; }
+
+/* line 149, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-stack-1x, .fa-stack-2x {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center; }
+
+/* line 155, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-stack-1x {
+  line-height: inherit; }
+
+/* line 158, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-stack-2x {
+  font-size: 2em; }
+
+/* line 161, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-inverse {
+  color: #ffffff; }
+
+/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+   readers do not read off random characters that represent icons */
+/* line 166, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-glass:before {
+  content: "\f000"; }
+
+/* line 169, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-music:before {
+  content: "\f001"; }
+
+/* line 172, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-search:before {
+  content: "\f002"; }
+
+/* line 175, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-envelope-o:before {
+  content: "\f003"; }
+
+/* line 178, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-heart:before {
+  content: "\f004"; }
+
+/* line 181, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-star:before {
+  content: "\f005"; }
+
+/* line 184, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-star-o:before {
+  content: "\f006"; }
+
+/* line 187, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-user:before {
+  content: "\f007"; }
+
+/* line 190, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-film:before {
+  content: "\f008"; }
+
+/* line 193, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-th-large:before {
+  content: "\f009"; }
+
+/* line 196, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-th:before {
+  content: "\f00a"; }
+
+/* line 199, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-th-list:before {
+  content: "\f00b"; }
+
+/* line 202, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-check:before {
+  content: "\f00c"; }
+
+/* line 207, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-remove:before, .fa-close:before, .fa-times:before {
+  content: "\f00d"; }
+
+/* line 210, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-search-plus:before {
+  content: "\f00e"; }
+
+/* line 213, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-search-minus:before {
+  content: "\f010"; }
+
+/* line 216, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-power-off:before {
+  content: "\f011"; }
+
+/* line 219, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-signal:before {
+  content: "\f012"; }
+
+/* line 223, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-gear:before, .fa-cog:before {
+  content: "\f013"; }
+
+/* line 226, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-trash-o:before {
+  content: "\f014"; }
+
+/* line 229, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-home:before {
+  content: "\f015"; }
+
+/* line 232, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-file-o:before {
+  content: "\f016"; }
+
+/* line 235, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-clock-o:before {
+  content: "\f017"; }
+
+/* line 238, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-road:before {
+  content: "\f018"; }
+
+/* line 241, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-download:before {
+  content: "\f019"; }
+
+/* line 244, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-arrow-circle-o-down:before {
+  content: "\f01a"; }
+
+/* line 247, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-arrow-circle-o-up:before {
+  content: "\f01b"; }
+
+/* line 250, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-inbox:before {
+  content: "\f01c"; }
+
+/* line 253, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-play-circle-o:before {
+  content: "\f01d"; }
+
+/* line 257, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-rotate-right:before, .fa-repeat:before {
+  content: "\f01e"; }
+
+/* line 260, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-refresh:before {
+  content: "\f021"; }
+
+/* line 263, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-list-alt:before {
+  content: "\f022"; }
+
+/* line 266, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-lock:before {
+  content: "\f023"; }
+
+/* line 269, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-flag:before {
+  content: "\f024"; }
+
+/* line 272, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-headphones:before {
+  content: "\f025"; }
+
+/* line 275, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-volume-off:before {
+  content: "\f026"; }
+
+/* line 278, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-volume-down:before {
+  content: "\f027"; }
+
+/* line 281, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-volume-up:before {
+  content: "\f028"; }
+
+/* line 284, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-qrcode:before {
+  content: "\f029"; }
+
+/* line 287, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-barcode:before {
+  content: "\f02a"; }
+
+/* line 290, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-tag:before {
+  content: "\f02b"; }
+
+/* line 293, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-tags:before {
+  content: "\f02c"; }
+
+/* line 296, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-book:before {
+  content: "\f02d"; }
+
+/* line 299, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-bookmark:before {
+  content: "\f02e"; }
+
+/* line 302, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-print:before {
+  content: "\f02f"; }
+
+/* line 305, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-camera:before {
+  content: "\f030"; }
+
+/* line 308, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-font:before {
+  content: "\f031"; }
+
+/* line 311, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-bold:before {
+  content: "\f032"; }
+
+/* line 314, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-italic:before {
+  content: "\f033"; }
+
+/* line 317, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-text-height:before {
+  content: "\f034"; }
+
+/* line 320, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-text-width:before {
+  content: "\f035"; }
+
+/* line 323, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-align-left:before {
+  content: "\f036"; }
+
+/* line 326, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-align-center:before {
+  content: "\f037"; }
+
+/* line 329, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-align-right:before {
+  content: "\f038"; }
+
+/* line 332, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-align-justify:before {
+  content: "\f039"; }
+
+/* line 335, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-list:before {
+  content: "\f03a"; }
+
+/* line 339, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-dedent:before, .fa-outdent:before {
+  content: "\f03b"; }
+
+/* line 342, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-indent:before {
+  content: "\f03c"; }
+
+/* line 345, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-video-camera:before {
+  content: "\f03d"; }
+
+/* line 350, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-photo:before, .fa-image:before, .fa-picture-o:before {
+  content: "\f03e"; }
+
+/* line 353, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-pencil:before {
+  content: "\f040"; }
+
+/* line 356, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-map-marker:before {
+  content: "\f041"; }
+
+/* line 359, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-adjust:before {
+  content: "\f042"; }
+
+/* line 362, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-tint:before {
+  content: "\f043"; }
+
+/* line 366, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-edit:before, .fa-pencil-square-o:before {
+  content: "\f044"; }
+
+/* line 369, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-share-square-o:before {
+  content: "\f045"; }
+
+/* line 372, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-check-square-o:before {
+  content: "\f046"; }
+
+/* line 375, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-arrows:before {
+  content: "\f047"; }
+
+/* line 378, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-step-backward:before {
+  content: "\f048"; }
+
+/* line 381, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-fast-backward:before {
+  content: "\f049"; }
+
+/* line 384, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-backward:before {
+  content: "\f04a"; }
+
+/* line 387, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-play:before {
+  content: "\f04b"; }
+
+/* line 390, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-pause:before {
+  content: "\f04c"; }
+
+/* line 393, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-stop:before {
+  content: "\f04d"; }
+
+/* line 396, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-forward:before {
+  content: "\f04e"; }
+
+/* line 399, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-fast-forward:before {
+  content: "\f050"; }
+
+/* line 402, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-step-forward:before {
+  content: "\f051"; }
+
+/* line 405, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-eject:before {
+  content: "\f052"; }
+
+/* line 408, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-chevron-left:before {
+  content: "\f053"; }
+
+/* line 411, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-chevron-right:before {
+  content: "\f054"; }
+
+/* line 414, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-plus-circle:before {
+  content: "\f055"; }
+
+/* line 417, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-minus-circle:before {
+  content: "\f056"; }
+
+/* line 420, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-times-circle:before {
+  content: "\f057"; }
+
+/* line 423, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-check-circle:before {
+  content: "\f058"; }
+
+/* line 426, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-question-circle:before {
+  content: "\f059"; }
+
+/* line 429, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-info-circle:before {
+  content: "\f05a"; }
+
+/* line 432, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-crosshairs:before {
+  content: "\f05b"; }
+
+/* line 435, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-times-circle-o:before {
+  content: "\f05c"; }
+
+/* line 438, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-check-circle-o:before {
+  content: "\f05d"; }
+
+/* line 441, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-ban:before {
+  content: "\f05e"; }
+
+/* line 444, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-arrow-left:before {
+  content: "\f060"; }
+
+/* line 447, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-arrow-right:before {
+  content: "\f061"; }
+
+/* line 450, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-arrow-up:before {
+  content: "\f062"; }
+
+/* line 453, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-arrow-down:before {
+  content: "\f063"; }
+
+/* line 457, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-mail-forward:before, .fa-share:before {
+  content: "\f064"; }
+
+/* line 460, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-expand:before {
+  content: "\f065"; }
+
+/* line 463, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-compress:before {
+  content: "\f066"; }
+
+/* line 466, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-plus:before {
+  content: "\f067"; }
+
+/* line 469, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-minus:before {
+  content: "\f068"; }
+
+/* line 472, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-asterisk:before {
+  content: "\f069"; }
+
+/* line 475, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-exclamation-circle:before {
+  content: "\f06a"; }
+
+/* line 478, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-gift:before {
+  content: "\f06b"; }
+
+/* line 481, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-leaf:before {
+  content: "\f06c"; }
+
+/* line 484, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-fire:before {
+  content: "\f06d"; }
+
+/* line 487, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-eye:before {
+  content: "\f06e"; }
+
+/* line 490, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-eye-slash:before {
+  content: "\f070"; }
+
+/* line 494, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-warning:before, .fa-exclamation-triangle:before {
+  content: "\f071"; }
+
+/* line 497, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-plane:before {
+  content: "\f072"; }
+
+/* line 500, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-calendar:before {
+  content: "\f073"; }
+
+/* line 503, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-random:before {
+  content: "\f074"; }
+
+/* line 506, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-comment:before {
+  content: "\f075"; }
+
+/* line 509, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-magnet:before {
+  content: "\f076"; }
+
+/* line 512, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-chevron-up:before {
+  content: "\f077"; }
+
+/* line 515, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-chevron-down:before {
+  content: "\f078"; }
+
+/* line 518, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-retweet:before {
+  content: "\f079"; }
+
+/* line 521, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-shopping-cart:before {
+  content: "\f07a"; }
+
+/* line 524, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-folder:before {
+  content: "\f07b"; }
+
+/* line 527, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-folder-open:before {
+  content: "\f07c"; }
+
+/* line 530, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-arrows-v:before {
+  content: "\f07d"; }
+
+/* line 533, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-arrows-h:before {
+  content: "\f07e"; }
+
+/* line 537, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-bar-chart-o:before, .fa-bar-chart:before {
+  content: "\f080"; }
+
+/* line 540, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-twitter-square:before {
+  content: "\f081"; }
+
+/* line 543, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-facebook-square:before {
+  content: "\f082"; }
+
+/* line 546, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-camera-retro:before {
+  content: "\f083"; }
+
+/* line 549, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-key:before {
+  content: "\f084"; }
+
+/* line 553, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-gears:before, .fa-cogs:before {
+  content: "\f085"; }
+
+/* line 556, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-comments:before {
+  content: "\f086"; }
+
+/* line 559, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-thumbs-o-up:before {
+  content: "\f087"; }
+
+/* line 562, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-thumbs-o-down:before {
+  content: "\f088"; }
+
+/* line 565, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-star-half:before {
+  content: "\f089"; }
+
+/* line 568, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-heart-o:before {
+  content: "\f08a"; }
+
+/* line 571, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-sign-out:before {
+  content: "\f08b"; }
+
+/* line 574, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-linkedin-square:before {
+  content: "\f08c"; }
+
+/* line 577, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-thumb-tack:before {
+  content: "\f08d"; }
+
+/* line 580, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-external-link:before {
+  content: "\f08e"; }
+
+/* line 583, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-sign-in:before {
+  content: "\f090"; }
+
+/* line 586, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-trophy:before {
+  content: "\f091"; }
+
+/* line 589, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-github-square:before {
+  content: "\f092"; }
+
+/* line 592, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-upload:before {
+  content: "\f093"; }
+
+/* line 595, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-lemon-o:before {
+  content: "\f094"; }
+
+/* line 598, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-phone:before {
+  content: "\f095"; }
+
+/* line 601, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-square-o:before {
+  content: "\f096"; }
+
+/* line 604, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-bookmark-o:before {
+  content: "\f097"; }
+
+/* line 607, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-phone-square:before {
+  content: "\f098"; }
+
+/* line 610, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-twitter:before {
+  content: "\f099"; }
+
+/* line 613, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-facebook:before {
+  content: "\f09a"; }
+
+/* line 616, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-github:before {
+  content: "\f09b"; }
+
+/* line 619, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-unlock:before {
+  content: "\f09c"; }
+
+/* line 622, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-credit-card:before {
+  content: "\f09d"; }
+
+/* line 625, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-rss:before {
+  content: "\f09e"; }
+
+/* line 628, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-hdd-o:before {
+  content: "\f0a0"; }
+
+/* line 631, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-bullhorn:before {
+  content: "\f0a1"; }
+
+/* line 634, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-bell:before {
+  content: "\f0f3"; }
+
+/* line 637, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-certificate:before {
+  content: "\f0a3"; }
+
+/* line 640, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-hand-o-right:before {
+  content: "\f0a4"; }
+
+/* line 643, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-hand-o-left:before {
+  content: "\f0a5"; }
+
+/* line 646, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-hand-o-up:before {
+  content: "\f0a6"; }
+
+/* line 649, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-hand-o-down:before {
+  content: "\f0a7"; }
+
+/* line 652, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-arrow-circle-left:before {
+  content: "\f0a8"; }
+
+/* line 655, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-arrow-circle-right:before {
+  content: "\f0a9"; }
+
+/* line 658, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-arrow-circle-up:before {
+  content: "\f0aa"; }
+
+/* line 661, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-arrow-circle-down:before {
+  content: "\f0ab"; }
+
+/* line 664, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-globe:before {
+  content: "\f0ac"; }
+
+/* line 667, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-wrench:before {
+  content: "\f0ad"; }
+
+/* line 670, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-tasks:before {
+  content: "\f0ae"; }
+
+/* line 673, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-filter:before {
+  content: "\f0b0"; }
+
+/* line 676, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-briefcase:before {
+  content: "\f0b1"; }
+
+/* line 679, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-arrows-alt:before {
+  content: "\f0b2"; }
+
+/* line 683, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-group:before, .fa-users:before {
+  content: "\f0c0"; }
+
+/* line 687, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-chain:before, .fa-link:before {
+  content: "\f0c1"; }
+
+/* line 690, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-cloud:before {
+  content: "\f0c2"; }
+
+/* line 693, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-flask:before {
+  content: "\f0c3"; }
+
+/* line 697, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-cut:before, .fa-scissors:before {
+  content: "\f0c4"; }
+
+/* line 701, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-copy:before, .fa-files-o:before {
+  content: "\f0c5"; }
+
+/* line 704, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-paperclip:before {
+  content: "\f0c6"; }
+
+/* line 708, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-save:before, .fa-floppy-o:before {
+  content: "\f0c7"; }
+
+/* line 711, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-square:before {
+  content: "\f0c8"; }
+
+/* line 716, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-navicon:before, .fa-reorder:before, .fa-bars:before {
+  content: "\f0c9"; }
+
+/* line 719, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-list-ul:before {
+  content: "\f0ca"; }
+
+/* line 722, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-list-ol:before {
+  content: "\f0cb"; }
+
+/* line 725, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-strikethrough:before {
+  content: "\f0cc"; }
+
+/* line 728, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-underline:before {
+  content: "\f0cd"; }
+
+/* line 731, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-table:before {
+  content: "\f0ce"; }
+
+/* line 734, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-magic:before {
+  content: "\f0d0"; }
+
+/* line 737, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-truck:before {
+  content: "\f0d1"; }
+
+/* line 740, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-pinterest:before {
+  content: "\f0d2"; }
+
+/* line 743, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-pinterest-square:before {
+  content: "\f0d3"; }
+
+/* line 746, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-google-plus-square:before {
+  content: "\f0d4"; }
+
+/* line 749, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-google-plus:before {
+  content: "\f0d5"; }
+
+/* line 752, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-money:before {
+  content: "\f0d6"; }
+
+/* line 755, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-caret-down:before {
+  content: "\f0d7"; }
+
+/* line 758, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-caret-up:before {
+  content: "\f0d8"; }
+
+/* line 761, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-caret-left:before {
+  content: "\f0d9"; }
+
+/* line 764, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-caret-right:before {
+  content: "\f0da"; }
+
+/* line 767, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-columns:before {
+  content: "\f0db"; }
+
+/* line 771, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-unsorted:before, .fa-sort:before {
+  content: "\f0dc"; }
+
+/* line 775, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-sort-down:before, .fa-sort-desc:before {
+  content: "\f0dd"; }
+
+/* line 779, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-sort-up:before, .fa-sort-asc:before {
+  content: "\f0de"; }
+
+/* line 782, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-envelope:before {
+  content: "\f0e0"; }
+
+/* line 785, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-linkedin:before {
+  content: "\f0e1"; }
+
+/* line 789, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-rotate-left:before, .fa-undo:before {
+  content: "\f0e2"; }
+
+/* line 793, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-legal:before, .fa-gavel:before {
+  content: "\f0e3"; }
+
+/* line 797, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-dashboard:before, .fa-tachometer:before {
+  content: "\f0e4"; }
+
+/* line 800, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-comment-o:before {
+  content: "\f0e5"; }
+
+/* line 803, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-comments-o:before {
+  content: "\f0e6"; }
+
+/* line 807, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-flash:before, .fa-bolt:before {
+  content: "\f0e7"; }
+
+/* line 810, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-sitemap:before {
+  content: "\f0e8"; }
+
+/* line 813, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-umbrella:before {
+  content: "\f0e9"; }
+
+/* line 817, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-paste:before, .fa-clipboard:before {
+  content: "\f0ea"; }
+
+/* line 820, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-lightbulb-o:before {
+  content: "\f0eb"; }
+
+/* line 823, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-exchange:before {
+  content: "\f0ec"; }
+
+/* line 826, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-cloud-download:before {
+  content: "\f0ed"; }
+
+/* line 829, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-cloud-upload:before {
+  content: "\f0ee"; }
+
+/* line 832, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-user-md:before {
+  content: "\f0f0"; }
+
+/* line 835, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-stethoscope:before {
+  content: "\f0f1"; }
+
+/* line 838, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-suitcase:before {
+  content: "\f0f2"; }
+
+/* line 841, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-bell-o:before {
+  content: "\f0a2"; }
+
+/* line 844, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-coffee:before {
+  content: "\f0f4"; }
+
+/* line 847, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-cutlery:before {
+  content: "\f0f5"; }
+
+/* line 850, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-file-text-o:before {
+  content: "\f0f6"; }
+
+/* line 853, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-building-o:before {
+  content: "\f0f7"; }
+
+/* line 856, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-hospital-o:before {
+  content: "\f0f8"; }
+
+/* line 859, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-ambulance:before {
+  content: "\f0f9"; }
+
+/* line 862, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-medkit:before {
+  content: "\f0fa"; }
+
+/* line 865, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-fighter-jet:before {
+  content: "\f0fb"; }
+
+/* line 868, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-beer:before {
+  content: "\f0fc"; }
+
+/* line 871, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-h-square:before {
+  content: "\f0fd"; }
+
+/* line 874, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-plus-square:before {
+  content: "\f0fe"; }
+
+/* line 877, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-angle-double-left:before {
+  content: "\f100"; }
+
+/* line 880, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-angle-double-right:before {
+  content: "\f101"; }
+
+/* line 883, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-angle-double-up:before {
+  content: "\f102"; }
+
+/* line 886, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-angle-double-down:before {
+  content: "\f103"; }
+
+/* line 889, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-angle-left:before {
+  content: "\f104"; }
+
+/* line 892, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-angle-right:before {
+  content: "\f105"; }
+
+/* line 895, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-angle-up:before {
+  content: "\f106"; }
+
+/* line 898, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-angle-down:before {
+  content: "\f107"; }
+
+/* line 901, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-desktop:before {
+  content: "\f108"; }
+
+/* line 904, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-laptop:before {
+  content: "\f109"; }
+
+/* line 907, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-tablet:before {
+  content: "\f10a"; }
+
+/* line 911, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-mobile-phone:before, .fa-mobile:before {
+  content: "\f10b"; }
+
+/* line 914, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-circle-o:before {
+  content: "\f10c"; }
+
+/* line 917, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-quote-left:before {
+  content: "\f10d"; }
+
+/* line 920, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-quote-right:before {
+  content: "\f10e"; }
+
+/* line 923, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-spinner:before {
+  content: "\f110"; }
+
+/* line 926, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-circle:before {
+  content: "\f111"; }
+
+/* line 930, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-mail-reply:before, .fa-reply:before {
+  content: "\f112"; }
+
+/* line 933, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-github-alt:before {
+  content: "\f113"; }
+
+/* line 936, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-folder-o:before {
+  content: "\f114"; }
+
+/* line 939, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-folder-open-o:before {
+  content: "\f115"; }
+
+/* line 942, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-smile-o:before {
+  content: "\f118"; }
+
+/* line 945, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-frown-o:before {
+  content: "\f119"; }
+
+/* line 948, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-meh-o:before {
+  content: "\f11a"; }
+
+/* line 951, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-gamepad:before {
+  content: "\f11b"; }
+
+/* line 954, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-keyboard-o:before {
+  content: "\f11c"; }
+
+/* line 957, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-flag-o:before {
+  content: "\f11d"; }
+
+/* line 960, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-flag-checkered:before {
+  content: "\f11e"; }
+
+/* line 963, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-terminal:before {
+  content: "\f120"; }
+
+/* line 966, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-code:before {
+  content: "\f121"; }
+
+/* line 970, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-mail-reply-all:before, .fa-reply-all:before {
+  content: "\f122"; }
+
+/* line 975, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-star-half-empty:before, .fa-star-half-full:before, .fa-star-half-o:before {
+  content: "\f123"; }
+
+/* line 978, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-location-arrow:before {
+  content: "\f124"; }
+
+/* line 981, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-crop:before {
+  content: "\f125"; }
+
+/* line 984, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-code-fork:before {
+  content: "\f126"; }
+
+/* line 988, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-unlink:before, .fa-chain-broken:before {
+  content: "\f127"; }
+
+/* line 991, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-question:before {
+  content: "\f128"; }
+
+/* line 994, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-info:before {
+  content: "\f129"; }
+
+/* line 997, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-exclamation:before {
+  content: "\f12a"; }
+
+/* line 1000, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-superscript:before {
+  content: "\f12b"; }
+
+/* line 1003, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-subscript:before {
+  content: "\f12c"; }
+
+/* line 1006, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-eraser:before {
+  content: "\f12d"; }
+
+/* line 1009, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-puzzle-piece:before {
+  content: "\f12e"; }
+
+/* line 1012, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-microphone:before {
+  content: "\f130"; }
+
+/* line 1015, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-microphone-slash:before {
+  content: "\f131"; }
+
+/* line 1018, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-shield:before {
+  content: "\f132"; }
+
+/* line 1021, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-calendar-o:before {
+  content: "\f133"; }
+
+/* line 1024, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-fire-extinguisher:before {
+  content: "\f134"; }
+
+/* line 1027, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-rocket:before {
+  content: "\f135"; }
+
+/* line 1030, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-maxcdn:before {
+  content: "\f136"; }
+
+/* line 1033, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-chevron-circle-left:before {
+  content: "\f137"; }
+
+/* line 1036, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-chevron-circle-right:before {
+  content: "\f138"; }
+
+/* line 1039, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-chevron-circle-up:before {
+  content: "\f139"; }
+
+/* line 1042, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-chevron-circle-down:before {
+  content: "\f13a"; }
+
+/* line 1045, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-html5:before {
+  content: "\f13b"; }
+
+/* line 1048, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-css3:before {
+  content: "\f13c"; }
+
+/* line 1051, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-anchor:before {
+  content: "\f13d"; }
+
+/* line 1054, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-unlock-alt:before {
+  content: "\f13e"; }
+
+/* line 1057, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-bullseye:before {
+  content: "\f140"; }
+
+/* line 1060, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-ellipsis-h:before {
+  content: "\f141"; }
+
+/* line 1063, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-ellipsis-v:before {
+  content: "\f142"; }
+
+/* line 1066, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-rss-square:before {
+  content: "\f143"; }
+
+/* line 1069, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-play-circle:before {
+  content: "\f144"; }
+
+/* line 1072, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-ticket:before {
+  content: "\f145"; }
+
+/* line 1075, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-minus-square:before {
+  content: "\f146"; }
+
+/* line 1078, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-minus-square-o:before {
+  content: "\f147"; }
+
+/* line 1081, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-level-up:before {
+  content: "\f148"; }
+
+/* line 1084, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-level-down:before {
+  content: "\f149"; }
+
+/* line 1087, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-check-square:before {
+  content: "\f14a"; }
+
+/* line 1090, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-pencil-square:before {
+  content: "\f14b"; }
+
+/* line 1093, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-external-link-square:before {
+  content: "\f14c"; }
+
+/* line 1096, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-share-square:before {
+  content: "\f14d"; }
+
+/* line 1099, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-compass:before {
+  content: "\f14e"; }
+
+/* line 1103, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-toggle-down:before, .fa-caret-square-o-down:before {
+  content: "\f150"; }
+
+/* line 1107, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-toggle-up:before, .fa-caret-square-o-up:before {
+  content: "\f151"; }
+
+/* line 1111, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-toggle-right:before, .fa-caret-square-o-right:before {
+  content: "\f152"; }
+
+/* line 1115, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-euro:before, .fa-eur:before {
+  content: "\f153"; }
+
+/* line 1118, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-gbp:before {
+  content: "\f154"; }
+
+/* line 1122, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-dollar:before, .fa-usd:before {
+  content: "\f155"; }
+
+/* line 1126, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-rupee:before, .fa-inr:before {
+  content: "\f156"; }
+
+/* line 1132, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-cny:before, .fa-rmb:before, .fa-yen:before, .fa-jpy:before {
+  content: "\f157"; }
+
+/* line 1137, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-ruble:before, .fa-rouble:before, .fa-rub:before {
+  content: "\f158"; }
+
+/* line 1141, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-won:before, .fa-krw:before {
+  content: "\f159"; }
+
+/* line 1145, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-bitcoin:before, .fa-btc:before {
+  content: "\f15a"; }
+
+/* line 1148, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-file:before {
+  content: "\f15b"; }
+
+/* line 1151, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-file-text:before {
+  content: "\f15c"; }
+
+/* line 1154, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-sort-alpha-asc:before {
+  content: "\f15d"; }
+
+/* line 1157, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-sort-alpha-desc:before {
+  content: "\f15e"; }
+
+/* line 1160, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-sort-amount-asc:before {
+  content: "\f160"; }
+
+/* line 1163, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-sort-amount-desc:before {
+  content: "\f161"; }
+
+/* line 1166, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-sort-numeric-asc:before {
+  content: "\f162"; }
+
+/* line 1169, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-sort-numeric-desc:before {
+  content: "\f163"; }
+
+/* line 1172, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-thumbs-up:before {
+  content: "\f164"; }
+
+/* line 1175, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-thumbs-down:before {
+  content: "\f165"; }
+
+/* line 1178, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-youtube-square:before {
+  content: "\f166"; }
+
+/* line 1181, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-youtube:before {
+  content: "\f167"; }
+
+/* line 1184, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-xing:before {
+  content: "\f168"; }
+
+/* line 1187, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-xing-square:before {
+  content: "\f169"; }
+
+/* line 1190, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-youtube-play:before {
+  content: "\f16a"; }
+
+/* line 1193, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-dropbox:before {
+  content: "\f16b"; }
+
+/* line 1196, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-stack-overflow:before {
+  content: "\f16c"; }
+
+/* line 1199, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-instagram:before {
+  content: "\f16d"; }
+
+/* line 1202, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-flickr:before {
+  content: "\f16e"; }
+
+/* line 1205, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-adn:before {
+  content: "\f170"; }
+
+/* line 1208, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-bitbucket:before {
+  content: "\f171"; }
+
+/* line 1211, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-bitbucket-square:before {
+  content: "\f172"; }
+
+/* line 1214, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-tumblr:before {
+  content: "\f173"; }
+
+/* line 1217, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-tumblr-square:before {
+  content: "\f174"; }
+
+/* line 1220, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-long-arrow-down:before {
+  content: "\f175"; }
+
+/* line 1223, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-long-arrow-up:before {
+  content: "\f176"; }
+
+/* line 1226, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-long-arrow-left:before {
+  content: "\f177"; }
+
+/* line 1229, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-long-arrow-right:before {
+  content: "\f178"; }
+
+/* line 1232, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-apple:before {
+  content: "\f179"; }
+
+/* line 1235, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-windows:before {
+  content: "\f17a"; }
+
+/* line 1238, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-android:before {
+  content: "\f17b"; }
+
+/* line 1241, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-linux:before {
+  content: "\f17c"; }
+
+/* line 1244, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-dribbble:before {
+  content: "\f17d"; }
+
+/* line 1247, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-skype:before {
+  content: "\f17e"; }
+
+/* line 1250, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-foursquare:before {
+  content: "\f180"; }
+
+/* line 1253, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-trello:before {
+  content: "\f181"; }
+
+/* line 1256, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-female:before {
+  content: "\f182"; }
+
+/* line 1259, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-male:before {
+  content: "\f183"; }
+
+/* line 1262, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-gittip:before {
+  content: "\f184"; }
+
+/* line 1265, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-sun-o:before {
+  content: "\f185"; }
+
+/* line 1268, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-moon-o:before {
+  content: "\f186"; }
+
+/* line 1271, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-archive:before {
+  content: "\f187"; }
+
+/* line 1274, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-bug:before {
+  content: "\f188"; }
+
+/* line 1277, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-vk:before {
+  content: "\f189"; }
+
+/* line 1280, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-weibo:before {
+  content: "\f18a"; }
+
+/* line 1283, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-renren:before {
+  content: "\f18b"; }
+
+/* line 1286, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-pagelines:before {
+  content: "\f18c"; }
+
+/* line 1289, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-stack-exchange:before {
+  content: "\f18d"; }
+
+/* line 1292, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-arrow-circle-o-right:before {
+  content: "\f18e"; }
+
+/* line 1295, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-arrow-circle-o-left:before {
+  content: "\f190"; }
+
+/* line 1299, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-toggle-left:before, .fa-caret-square-o-left:before {
+  content: "\f191"; }
+
+/* line 1302, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-dot-circle-o:before {
+  content: "\f192"; }
+
+/* line 1305, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-wheelchair:before {
+  content: "\f193"; }
+
+/* line 1308, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-vimeo-square:before {
+  content: "\f194"; }
+
+/* line 1312, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-turkish-lira:before, .fa-try:before {
+  content: "\f195"; }
+
+/* line 1315, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-plus-square-o:before {
+  content: "\f196"; }
+
+/* line 1318, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-space-shuttle:before {
+  content: "\f197"; }
+
+/* line 1321, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-slack:before {
+  content: "\f198"; }
+
+/* line 1324, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-envelope-square:before {
+  content: "\f199"; }
+
+/* line 1327, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-wordpress:before {
+  content: "\f19a"; }
+
+/* line 1330, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-openid:before {
+  content: "\f19b"; }
+
+/* line 1335, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-institution:before, .fa-bank:before, .fa-university:before {
+  content: "\f19c"; }
+
+/* line 1339, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-mortar-board:before, .fa-graduation-cap:before {
+  content: "\f19d"; }
+
+/* line 1342, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-yahoo:before {
+  content: "\f19e"; }
+
+/* line 1345, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-google:before {
+  content: "\f1a0"; }
+
+/* line 1348, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-reddit:before {
+  content: "\f1a1"; }
+
+/* line 1351, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-reddit-square:before {
+  content: "\f1a2"; }
+
+/* line 1354, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-stumbleupon-circle:before {
+  content: "\f1a3"; }
+
+/* line 1357, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-stumbleupon:before {
+  content: "\f1a4"; }
+
+/* line 1360, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-delicious:before {
+  content: "\f1a5"; }
+
+/* line 1363, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-digg:before {
+  content: "\f1a6"; }
+
+/* line 1366, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-pied-piper:before {
+  content: "\f1a7"; }
+
+/* line 1369, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-pied-piper-alt:before {
+  content: "\f1a8"; }
+
+/* line 1372, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-drupal:before {
+  content: "\f1a9"; }
+
+/* line 1375, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-joomla:before {
+  content: "\f1aa"; }
+
+/* line 1378, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-language:before {
+  content: "\f1ab"; }
+
+/* line 1381, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-fax:before {
+  content: "\f1ac"; }
+
+/* line 1384, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-building:before {
+  content: "\f1ad"; }
+
+/* line 1387, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-child:before {
+  content: "\f1ae"; }
+
+/* line 1390, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-paw:before {
+  content: "\f1b0"; }
+
+/* line 1393, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-spoon:before {
+  content: "\f1b1"; }
+
+/* line 1396, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-cube:before {
+  content: "\f1b2"; }
+
+/* line 1399, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-cubes:before {
+  content: "\f1b3"; }
+
+/* line 1402, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-behance:before {
+  content: "\f1b4"; }
+
+/* line 1405, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-behance-square:before {
+  content: "\f1b5"; }
+
+/* line 1408, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-steam:before {
+  content: "\f1b6"; }
+
+/* line 1411, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-steam-square:before {
+  content: "\f1b7"; }
+
+/* line 1414, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-recycle:before {
+  content: "\f1b8"; }
+
+/* line 1418, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-automobile:before, .fa-car:before {
+  content: "\f1b9"; }
+
+/* line 1422, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-cab:before, .fa-taxi:before {
+  content: "\f1ba"; }
+
+/* line 1425, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-tree:before {
+  content: "\f1bb"; }
+
+/* line 1428, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-spotify:before {
+  content: "\f1bc"; }
+
+/* line 1431, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-deviantart:before {
+  content: "\f1bd"; }
+
+/* line 1434, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-soundcloud:before {
+  content: "\f1be"; }
+
+/* line 1437, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-database:before {
+  content: "\f1c0"; }
+
+/* line 1440, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-file-pdf-o:before {
+  content: "\f1c1"; }
+
+/* line 1443, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-file-word-o:before {
+  content: "\f1c2"; }
+
+/* line 1446, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-file-excel-o:before {
+  content: "\f1c3"; }
+
+/* line 1449, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-file-powerpoint-o:before {
+  content: "\f1c4"; }
+
+/* line 1454, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-file-photo-o:before, .fa-file-picture-o:before, .fa-file-image-o:before {
+  content: "\f1c5"; }
+
+/* line 1458, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-file-zip-o:before, .fa-file-archive-o:before {
+  content: "\f1c6"; }
+
+/* line 1462, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-file-sound-o:before, .fa-file-audio-o:before {
+  content: "\f1c7"; }
+
+/* line 1466, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-file-movie-o:before, .fa-file-video-o:before {
+  content: "\f1c8"; }
+
+/* line 1469, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-file-code-o:before {
+  content: "\f1c9"; }
+
+/* line 1472, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-vine:before {
+  content: "\f1ca"; }
+
+/* line 1475, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-codepen:before {
+  content: "\f1cb"; }
+
+/* line 1478, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-jsfiddle:before {
+  content: "\f1cc"; }
+
+/* line 1485, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-life-bouy:before, .fa-life-buoy:before, .fa-life-saver:before, .fa-support:before, .fa-life-ring:before {
+  content: "\f1cd"; }
+
+/* line 1488, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-circle-o-notch:before {
+  content: "\f1ce"; }
+
+/* line 1492, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-ra:before, .fa-rebel:before {
+  content: "\f1d0"; }
+
+/* line 1496, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-ge:before, .fa-empire:before {
+  content: "\f1d1"; }
+
+/* line 1499, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-git-square:before {
+  content: "\f1d2"; }
+
+/* line 1502, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-git:before {
+  content: "\f1d3"; }
+
+/* line 1505, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-hacker-news:before {
+  content: "\f1d4"; }
+
+/* line 1508, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-tencent-weibo:before {
+  content: "\f1d5"; }
+
+/* line 1511, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-qq:before {
+  content: "\f1d6"; }
+
+/* line 1515, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-wechat:before, .fa-weixin:before {
+  content: "\f1d7"; }
+
+/* line 1519, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-send:before, .fa-paper-plane:before {
+  content: "\f1d8"; }
+
+/* line 1523, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-send-o:before, .fa-paper-plane-o:before {
+  content: "\f1d9"; }
+
+/* line 1526, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-history:before {
+  content: "\f1da"; }
+
+/* line 1529, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-circle-thin:before {
+  content: "\f1db"; }
+
+/* line 1532, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-header:before {
+  content: "\f1dc"; }
+
+/* line 1535, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-paragraph:before {
+  content: "\f1dd"; }
+
+/* line 1538, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-sliders:before {
+  content: "\f1de"; }
+
+/* line 1541, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-share-alt:before {
+  content: "\f1e0"; }
+
+/* line 1544, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-share-alt-square:before {
+  content: "\f1e1"; }
+
+/* line 1547, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-bomb:before {
+  content: "\f1e2"; }
+
+/* line 1551, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-soccer-ball-o:before, .fa-futbol-o:before {
+  content: "\f1e3"; }
+
+/* line 1554, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-tty:before {
+  content: "\f1e4"; }
+
+/* line 1557, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-binoculars:before {
+  content: "\f1e5"; }
+
+/* line 1560, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-plug:before {
+  content: "\f1e6"; }
+
+/* line 1563, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-slideshare:before {
+  content: "\f1e7"; }
+
+/* line 1566, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-twitch:before {
+  content: "\f1e8"; }
+
+/* line 1569, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-yelp:before {
+  content: "\f1e9"; }
+
+/* line 1572, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-newspaper-o:before {
+  content: "\f1ea"; }
+
+/* line 1575, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-wifi:before {
+  content: "\f1eb"; }
+
+/* line 1578, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-calculator:before {
+  content: "\f1ec"; }
+
+/* line 1581, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-paypal:before {
+  content: "\f1ed"; }
+
+/* line 1584, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-google-wallet:before {
+  content: "\f1ee"; }
+
+/* line 1587, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-cc-visa:before {
+  content: "\f1f0"; }
+
+/* line 1590, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-cc-mastercard:before {
+  content: "\f1f1"; }
+
+/* line 1593, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-cc-discover:before {
+  content: "\f1f2"; }
+
+/* line 1596, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-cc-amex:before {
+  content: "\f1f3"; }
+
+/* line 1599, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-cc-paypal:before {
+  content: "\f1f4"; }
+
+/* line 1602, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-cc-stripe:before {
+  content: "\f1f5"; }
+
+/* line 1605, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-bell-slash:before {
+  content: "\f1f6"; }
+
+/* line 1608, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-bell-slash-o:before {
+  content: "\f1f7"; }
+
+/* line 1611, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-trash:before {
+  content: "\f1f8"; }
+
+/* line 1614, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-copyright:before {
+  content: "\f1f9"; }
+
+/* line 1617, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-at:before {
+  content: "\f1fa"; }
+
+/* line 1620, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-eyedropper:before {
+  content: "\f1fb"; }
+
+/* line 1623, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-paint-brush:before {
+  content: "\f1fc"; }
+
+/* line 1626, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-birthday-cake:before {
+  content: "\f1fd"; }
+
+/* line 1629, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-area-chart:before {
+  content: "\f1fe"; }
+
+/* line 1632, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-pie-chart:before {
+  content: "\f200"; }
+
+/* line 1635, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-line-chart:before {
+  content: "\f201"; }
+
+/* line 1638, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-lastfm:before {
+  content: "\f202"; }
+
+/* line 1641, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-lastfm-square:before {
+  content: "\f203"; }
+
+/* line 1644, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-toggle-off:before {
+  content: "\f204"; }
+
+/* line 1647, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-toggle-on:before {
+  content: "\f205"; }
+
+/* line 1650, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-bicycle:before {
+  content: "\f206"; }
+
+/* line 1653, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-bus:before {
+  content: "\f207"; }
+
+/* line 1656, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-ioxhost:before {
+  content: "\f208"; }
+
+/* line 1659, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-angellist:before {
+  content: "\f209"; }
+
+/* line 1662, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-cc:before {
+  content: "\f20a"; }
+
+/* line 1667, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-shekel:before, .fa-sheqel:before, .fa-ils:before {
+  content: "\f20b"; }
+
+/* line 1670, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/font-awesome */
+.fa-meanpath:before {
+  content: "\f20c"; }
+
+/* Toggle Menu -------------------- */
+/* line 4, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+html {
+  font-family: "Open Sans";
+  margin: 0em;
+  padding: 0em; }
+
+/* line 10, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+body {
+  margin: 0em;
+  padding: 0em; }
+
+/* line 17, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+*, *::before, *::after {
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 25, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+header {
+  margin: 0;
+  padding: 0; }
+
+/* line 30, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+article {
+  margin: 0;
+  padding: 0; }
+
+/* line 35, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+div {
+  margin: 0;
+  padding: 0; }
+
+/* line 40, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+.light-blue {
+  background-color: #21637F;
+  margin: 0em;
+  padding: 1.5em; }
+
+/* line 46, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+.img-flex {
+  width: 100%; }
+
+/* line 50, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+.logo {
+  width: 20em; }
+
+/* line 54, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+.donate {
+  width: 10em; }
+
+/* line 59, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+a {
+  width: 100%;
+  height: 100%;
+  color: white; }
+
+/* line 66, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+.row {
+  display: inline-block;
+  margin: 0 1em;
+  color: white;
+  text-decoration: none; }
+
+/* line 73, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+.center {
+  width: 50% auto; }
+
+/* line 77, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+footer {
+  background-color: #21637F;
+  padding: 2em; }
+
+/* line 82, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+.footer {
+  color: white;
+  text-align: center; }
+
+/* line 87, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+.menu-opener, .menu-opener:hover, .menu-opener.active, .menu-opener-inner, .menu-opener-inner::before, .menu-opener-inner::after, .menu, .menu.active {
+  transition: 250ms all; }
+
+/* line 95, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+.menu-opener {
+  cursor: pointer;
+  height: 64px;
+  position: absolute;
+  z-index: 2;
+  top: 2%;
+  left: 1%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 64px;
+  background: #fff; }
+
+/* line 111, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+.menu-opener:hover, .menu-opener.active {
+  background: #fff;
+  position: absolute; }
+
+/* line 116, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+.menu-opener-inner {
+  background: #2DBDCD;
+  height: 0.5rem;
+  margin-left: 0.75rem;
+  margin-top: 1.75rem;
+  width: 2.5rem; }
+
+/* line 124, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+.menu-opener-inner::before, .menu-opener-inner::after {
+  background: #2DBDCD;
+  content: '';
+  display: block;
+  height: 0.5rem;
+  width: 2.5rem; }
+
+/* line 133, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+.menu-opener-inner::before {
+  -webkit-transform: translateY(-0.75rem);
+  -ms-transform: translateY(-0.75rem);
+  transform: translateY(-0.75rem); }
+
+/* line 141, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+.menu-opener-inner::after {
+  -webkit-transform: translateY(0.25rem);
+  -ms-transform: translateY(0.25rem);
+  transform: translateY(0.25rem); }
+
+/* line 149, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+.menu-opener-inner.active {
+  background: transparent; }
+
+/* line 153, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+.menu-opener-inner.active::before {
+  -webkit-transform: translateY(0rem) rotate(-45deg);
+  -ms-transform: translateY(0rem) rotate(-45deg);
+  transform: translateY(0rem) rotate(-45deg); }
+
+/* line 161, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+.menu-opener-inner.active::after {
+  -webkit-transform: translateY(-0.5rem) translateX(0rem) rotate(45deg);
+  -ms-transform: translateY(-0.5rem) translateX(0rem) rotate(45deg);
+  transform: translateY(-0.5rem) translateX(0rem) rotate(45deg); }
+
+/* line 169, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+.menu {
+  background: #2DBDCD;
+  color: transparent;
+  height: 64px;
+  position: absolute;
+  z-index: -1;
+  top: 2%;
+  left: 1%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 0rem; }
+
+/* line 185, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+.menu.active {
+  width: calc(100% - 2rem);
+  position: absolute;
+  z-index: 1; }
+
+/* line 191, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+.menu.active .menu-link {
+  color: #FFF; }
+
+/* line 195, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+.menu-inner {
+  display: -ms-box;
+  display: -o-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  display: -webkit-flexbox;
+  display: -moz-flexbox;
+  display: -ms-flexbox;
+  display: -o-flexbox;
+  display: flexbox;
+  -ms-box-orient: horizontal;
+  -o-box-orient: horizontal;
+  box-orient: horizontal;
+  -ms-box-direction: normal;
+  -o-box-direction: normal;
+  box-direction: normal;
+  -webkit-flex-direction: row;
+  -moz-flex-direction: row;
+  -ms-flex-direction: row;
+  -o-flex-direction: row;
+  flex-direction: row;
+  height: 100%;
+  list-style-type: none;
+  margin: 0;
+  margin-left: 4rem;
+  padding: 0; }
+
+/* line 233, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+.menu-link {
+  color: transparent;
+  display: -ms-box;
+  display: -o-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  display: -webkit-flexbox;
+  display: -moz-flexbox;
+  display: -ms-flexbox;
+  display: -o-flexbox;
+  display: flexbox;
+  display: flex;
+  -ms-box-flex: 1;
+  -o-box-flex: 1;
+  box-flex: 1;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  -moz-flex: 1 1 auto;
+  -o-flex: 1 1 auto;
+  flex: 1 1 auto;
+  font-size: 1.2rem;
+  font-weight: 100;
+  height: 100%;
+  text-align: center;
+  text-decoration: none; }
+
+/* line 268, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+.menu-link li {
+  margin: auto;
+  color: #fff; }
+
+@media screen and (max-width: 768px) {
+  /* line 274, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+  .menu {
+    height: auto; }
+
+  /* line 278, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+  .menu-inner {
+    display: block; }
+
+  /* line 282, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+  .menu-link {
+    padding: 10px 0;
+    font-size: 1.2em; }
+
+  /* line 287, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/main */
+  .menu.active {
+    width: calc(100% - 0.5rem); }
+ }
+
+/* line 1, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/typography */
+p {
+  margin: 2em;
+  font-family: 'FontAwesome', Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  line-height: 1.5em; }
+
+/* line 8, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/typography */
+h1 {
+  font-family: 'FontAwesome', Helvetica, Arial, sans-serif;
+  font-size: 1.9em;
+  text-align: center;
+  color: white;
+  font-weight: lighter; }
+
+/* line 16, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/typography */
+h2 {
+  font-family: 'FontAwesome', Helvetica, Arial sans-serif;
+  text-align: center;
+  color: white;
+  font-weight: bolder; }
