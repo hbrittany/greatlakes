@@ -50,6 +50,16 @@ div {
     width: 10em;
 }
 
+.close {
+    width: 1.3em;
+    margin:1em;
+    float: right;
+}
+
+div {
+    margin: 0em;
+    padding: 0.1em 0em;   
+}
 
 a {
   width: 100%;
@@ -99,12 +109,14 @@ a {
 
 footer {
     background-color: #21637F;
-    padding: 2em;
+    padding: 1em;
 }
 
 .footer {
     color: white;
     text-align: center;
+    padding-bottom: 1em;
+    margin: 0em;
 }
 
 .menu-opener, .menu-opener:hover, .menu-opener.active, .menu-opener-inner, .menu-opener-inner::before, .menu-opener-inner::after, .menu, .menu.active {
