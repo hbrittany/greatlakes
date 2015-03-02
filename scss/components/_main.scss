@@ -3,6 +3,7 @@
 
 html{
 font-family: "Open Sans";
+<<<<<<< HEAD
 margin: 0em;
 padding: 0em;
 }
@@ -126,6 +127,35 @@ footer {
   transition: 250ms all;
 }
 
+=======
+    
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.menu-opener, .menu-opener:hover, .menu-opener.active, .menu-opener-inner, .menu-opener-inner::before, .menu-opener-inner::after, .menu, .menu.active {
+  -webkit-transition: 250ms all;
+  -moz-transition: 250ms all;
+  -ms-transition: 250ms all;
+  -o-transition: 250ms all;
+  transition: 250ms all;
+}
+
+>>>>>>> gh-pages
 .menu-opener {
   cursor: pointer;
   height: 64px;
