@@ -10,44 +10,40 @@
 <meta name="handheldfriendly" content="true">
 <meta name="mobileoptimized" content="240">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-</head>
 
-<body>
-  <nav class="menu-opener">
-      <div class="menu-opener-inner"></div>
-  </nav>
-  <nav class="menu">
-    <ul class="menu-inner">
-      <a href="{{site.baseurl}}/index.html" class="menu-link">
-        <li>Home</li>
-      </a>
-      <a href="{{site.baseurl}}/who-we-are.html" class="menu-link">
-        <li>Who Are We</li>
-      </a>
-      <a href="{{site.baseurl}}/great-lakes-issues.html" class="menu-link">
-        <li>Great Lakes Issues</li>
-      </a>
-      <a href="{{site.baseurl}}/get-involved.html" class="menu-link">
-      <a href="#about" class="menu-link">
-        <li>Get Involved</li>
-      </a>
-    </ul>
-</nav>
-    
-<header>
-    <div class"relative">
-        <div class="cover"></div>
-        <a class="logo" href="index.html">
-            <img src="images/logo.svg" class="logo">
-        </a>
-    </div>
-</header> 
+<body class="noscript">
+  <div class="site-wrapper" data-state="slide-closed">
+    <div class="sliding-canvas">
 
-{{content}}
+      <header>
+        <h1 class="main-title">The Great Lakes Alliance</h1>
 
-<footer>
-	{% include footer.html %}
-</footer>
+          <!-- Menu Toggle Icon -->
+        <a class="toggle-btn" href="#main-menu"><i class="i-menu"></i><span>Menu</span>Menu</a>
+
+        <nav class="navigation slide-menu">
+        <a class="close-btn" href="#main-menu"><i class="i-close"></i><span>Close</span>Close Menu</a>
+          <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </header><!-- /header -->
+
+      <main>
+        {{content}}
+      </main><!-- /main -->
+
+      <footer>
+        {% include footer.html %}
+      </footer><!-- /footer -->
+
+    </div><!-- /.sliding-canvas -->
+  </div><!-- /#page -->
+
 
 </body>
 </html>
+
