@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
 <head>
+
 <meta charset="UTF-8">
 <title>Great Lakes Alliance</title>
 
@@ -12,35 +13,29 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 
-<body>
-  <nav class="menu-opener">
-      <div class="menu-opener-inner"></div>
-  </nav>
-  <nav class="menu">
-    <ul class="menu-inner">
-      <a href="/who-we-are.html" class="menu-link">
-        <li>Who Are We</li>
-      </a>
-      <a href="/great-lakes-issues.html" class="menu-link">
-        <li>Great Lakes Issues</li>
-      </a>
-      <a href="/get-involved.html" class="menu-link">
-      <a href="#about" class="menu-link">
-        <li>Get Involved</li>
-      </a>
-    </ul>
-</nav>
-    
-<header>
-    <div class"relative">
-        <div class="cover"></div>
-        <a class="logo" href="index.html">
-            <img src="images/logo.svg" class="logo">
-        </a>
-    </div>
-</header> 
+<body class="noscript">
+  <div class="site-wrapper" data-state="slide-closed">
+    <div class="sliding-canvas">
 
-<div style="position: relative; left: 0; top: 0;">
+      <header>
+        <h1 class="main-title">The Great Lakes Alliance</h1>
+
+          <!-- Menu Toggle Icon -->
+        <a class="toggle-btn" href="#main-menu"><i class="i-menu"></i><span>Menu</span>Menu</a>
+
+        <nav class="navigation slide-menu">
+        <a class="close-btn" href="#main-menu"><i class="i-close"></i><span>Close</span>Close Menu</a>
+          <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </header><!-- /header -->
+
+      <main>
+        <div style="position: relative; left: 0; top: 0;">
   <img class="img-flex"src="images/great-lakes.jpg" style="position: relative; bottom: -6px; left: 0;"/>
   <a href="index.html">
     <img class="logo" src="images/logo.svg" style="position: absolute; top: 8em; left: 2em;"/>
@@ -49,21 +44,24 @@
       <img class="donate" src="images/donate-button.svg" style="position: absolute; top: 15em; left: 7em;"/>
     </a>
 </div>       
-    
+
+
 <article>
 
-<div class="light-blue">
-    <h1>10,309 Donation to Date</h1>
-</div>
+  <div class="light-blue">
+      <h1>10,309 Donation to Date</h1>
+  </div>
     
   <p>The Great Lakes contain nearly 20 percent of the earth’s surface freshwater, providing drinking water to more than 40 million people. A 2007 Brookings Institution report determined that a healthy, restored Great Lakes could generate $50 billion in long-term economic benefits for the region. These benefits would be enjoyed by the businesses and industry that use water for commerce, as well as by beachgoers, naturalists, boaters, anglers and homeowners.</p>
+  
   <p>Threats to the Great Lakes today are many, and range from pollution and invasive species to wasteful water use and global warming. All demand our attention and commitment.</p>   
     
 </article>
 
+      </main><!-- /main -->
 
-<footer>
-	<footer>
+      <footer>
+        
         <ul>
             <li class="row"><a href="#">E-Mail</a></li>
             <li class="row"><a href="#">Twitter</a></li>
@@ -82,9 +80,16 @@
 <script src="js/main.js"></script>
 <script src="js/scroll.js"></script>
 <script src="js/menu-opener.js"></script> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="js/push-menu.js"></script>
 
-</footer>
-</footer>
+      </footer><!-- /footer -->
+
+
+    </div><!-- /.sliding-canvas -->
+  </div><!-- /#page -->
+
 
 </body>
 </html>
+
