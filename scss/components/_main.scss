@@ -7,7 +7,8 @@
 @viewport { width: device-width; scale: 1; }
 
 html{
-font-family: "Open Sans";  
+font-family: "Open Sans"; 
+color: $text-color; 
 }
 
 *,
@@ -53,7 +54,7 @@ header {
   padding: 3.2rem;
   margin: 0;
   position: relative;
-  background-color: #21637F;
+  background-color: $navs;
   .toggle-btn{
     position: absolute;
     right: 1em;
@@ -75,9 +76,10 @@ header {
   }
 
 .navigation {
-      background-color: #21637F;
+      background-color: $navs;
     color: white;
     text-align: center;
+    font-size: 1rem;
 }
 
 .navigation ul{
@@ -169,6 +171,11 @@ header {
   width: 100%;
 }
 
+.count {
+  background-color: $blue;
+  padding: 1.5rem;
+}
+
 body.noscript .slide-menu{
   position: static;
   right: auto;
@@ -254,7 +261,7 @@ div {
 }
 
 footer {
-    background-color: #21637F;
+    background-color: $navs;
     padding: 1em;
     color: white;
     text-align: center;
