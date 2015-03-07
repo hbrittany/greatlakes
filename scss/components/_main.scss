@@ -129,7 +129,7 @@ h1 {
   } // li
 } // .navigation ul
 
-@media only screen and (min-width: 35em){
+@media only screen and (min-width: 45em){
   .navigation{
     text-align: center;
     float: right;
@@ -149,16 +149,18 @@ h1 {
 .close-btn{
   color: white;
   position: relative;
-  margin-top: 1.4rem;
+  margin-top: 1rem;
   height: 40px;
   width: 40px;
   text-decoration: none;
+  padding: 0 .5rem;
+  display: block;
   i{
-    border: 1px solid $light-grey;
-    padding: .5em; 
+    padding-top: .5rem; 
   }
   span{
-    @include hide-text;
+    font-size: .3rem;
+
   }
 }
 
@@ -171,7 +173,7 @@ h1 {
 
 // Page should move when nav opens
 // only time we will ever use max-width
-@media only screen and (max-width: 60em){ 
+@media only screen and (max-width: 45em){ 
   .site-wrapper{
     position: relative;
     overflow: hidden;
@@ -210,7 +212,7 @@ h1 {
 }
 
 // Resets page when desktop, even if nav is toggled open
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 45em) {
   .toggle-btn, 
   .close-btn{
     display: none;
@@ -222,8 +224,12 @@ h1 {
 }
 
 .count {
-  background-color: $blue;
+  background-color: $light-grey;
   padding: 1.5rem;
+}
+
+.count h1 {
+    color: $blue;
 }
 
 body.noscript .slide-menu{
@@ -296,13 +302,6 @@ div {
     float:left;
 }
 
-.row {
-    display: inline-block;
-    margin: 0 1em;
-    color: white;
-    text-decoration: none;
-}
-
 .center {
     width: 50% auto;
 }
@@ -349,4 +348,26 @@ footer {
   margin-left: auto;
   margin-bottom: 5rem;
 }
+
+.media {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+.media li{
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+.media i {
+  border: solid 3px;
+  padding: .7rem;
+  border-color: $light-grey;
+  border-radius: 100px;
+}
+
+
 
