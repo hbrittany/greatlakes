@@ -22,7 +22,6 @@ color: $text-color;
 }
 
 a {
-  display: block;
   width: 100%;
   height: 100%;
   color: white;
@@ -51,20 +50,31 @@ body {
 }
 
 header {
-  padding: 3.2rem;
+  padding: 2rem 1rem 2rem;
   margin: 0;
   position: relative;
   background-color: $navs;
+  height: 5rem;
   .toggle-btn{
     position: absolute;
     right: 1em;
     top: 0;
   }
+  h1 {
+    font-size: 1rem;
+  }
 }
 
-  h1 {
+.banner-section {
+  background: transparent url('../images/great-lakes.jpg') no-repeat center center;
+  background-size: cover;
+  padding: 14rem 0;
+  margin: 0;
+}
+ 
+h1 {
     padding: 0;
-  }
+}
 
  .main-title {
     top: 2rem;
@@ -76,10 +86,34 @@ header {
   }
 
 .navigation {
-      background-color: $navs;
+    background-color: $navs;
     color: white;
     text-align: center;
     font-size: 1rem;
+}
+
+.nav-logo {
+  margin: 0;
+  padding: 0;
+  height: 30px;
+  float:left;
+
+}
+
+.banner h4{
+  text-align: center;
+  text-decoration: none;
+  background-color: $blue;
+  padding: .5rem;
+  color: $light-grey;
+  border-radius: 20px;
+  max-width: 10rem;
+  margin: 0 auto;
+}
+
+.banner h4:hover{
+  background-color: $light-grey;
+  color: $blue;
 }
 
 .navigation ul{
@@ -94,6 +128,22 @@ header {
     }
   } // li
 } // .navigation ul
+
+@media only screen and (min-width: 35em){
+  .navigation{
+    text-align: center;
+    float: right;
+    display: inline;
+    right: 2%;
+  }
+  
+  .navigation li{
+    float: left;
+    width: 33.33%;
+    display: inline;
+    width:auto;
+  }
+}
 
 .toggle-btn, 
 .close-btn{
@@ -195,10 +245,6 @@ div {
     width: 100%;
 }
 
-.logo {
-    width: 20em;
-}
-
 .donate {
     width: 10em;
 }
@@ -220,6 +266,7 @@ div {
     width: 8em;
     margin: 0 4em;
 }
+
     
 .btn-alt,
 .btn-alt:link,
