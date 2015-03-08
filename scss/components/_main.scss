@@ -15,6 +15,10 @@ main p{
   padding: 0 2.2rem;
 }
 
+.img-flex{
+  width: 100%;
+}
+
 *,
 *::before,
 *::after {
@@ -54,9 +58,10 @@ body {
 }
 
 article {
-  max-width: 50rem;
-  margin: 2rem auto;
+  max-width: 60rem;
+  margin: 4rem auto;
   padding-bottom: 3rem;
+
 }
 
 header {
@@ -84,6 +89,10 @@ header {
  
 h1 {
     padding: 0;
+}
+
+.article a {
+  color: $dark;
 }
 
  .main-title {
@@ -273,13 +282,14 @@ footer p{
   width: 100%;
 }
 
-.count {
+.count h3{
   background-color: $light-grey;
-  padding: 1.5rem;
-}
-
-.count h1 {
-    color: $blue;
+  font-size: 1.9em;
+  padding: 3rem;
+  text-align: center;
+  color: $blue;
+  font-weight:lighter;
+  margin: 0;
 }
 
 body.noscript .slide-menu{
@@ -378,6 +388,32 @@ div {
   border-radius: 100px;
 }
 
+/* -------------- buckets -------------- */
+
+.bucket {
+  padding: 6rem 0;
+  margin: 1rem auto;
+}
+
+@media only screen and (min-width: 45em) {
+  .bucket {
+  padding: 6rem 3rem;
+  }
+}
+
+.bucket h2 {
+  color: $dark;
+}
+
+.bucket-two {
+  background: url('../images/6.jpg') no-repeat center;
+}
+
+.bucket-one {
+  background: url('../images/4.jpg') no-repeat center;
+}
+
+
 /* ------------ tabs ---------------- */
 
 .tabs h2 {
@@ -406,7 +442,7 @@ div {
         font-size: 14px; 
         line-height: 2em; 
         display: block; 
-        padding: 3px 15px; 
+        padding: 5px 15px; 
         outline: none;
         text-decoration: none;
         color: $text-color; 
@@ -439,5 +475,12 @@ div {
         margin-bottom: 10px; 
 }
 
+/* ------------- grid  ------------- */
+.right {
+  float: right;
+}
 
+.left {
+  float: left;
+}
 
