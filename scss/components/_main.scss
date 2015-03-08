@@ -84,7 +84,12 @@ header {
   background: transparent url('../images/great-lakes.jpg') no-repeat center center;
   background-size: cover;
   padding: 14rem 0;
-  margin: 0;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.banner-section h2 {
+  color: #fff;
 }
  
 h1 {
