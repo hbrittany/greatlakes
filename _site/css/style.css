@@ -2222,7 +2222,8 @@ h1 {
   float: left; }
 
 /* line 113, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
-.banner h4 {
+.btn {
+  display: inline-block;
   text-align: center;
   text-decoration: none;
   background-color: #1dc4ca;
@@ -2232,19 +2233,19 @@ h1 {
   max-width: 10rem;
   margin: 0 auto; }
 
-/* line 124, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
-.banner h4:hover {
+/* line 125, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+.btn:hover {
   background-color: #f6f6f6;
   color: #1dc4ca; }
 
-/* line 129, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 130, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
 .navigation ul {
   margin: 0;
   padding: 0; }
-  /* line 131, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+  /* line 132, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
   .navigation ul li {
     list-style-type: none; }
-    /* line 133, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+    /* line 134, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
     .navigation ul li a {
       display: block;
       padding: 0.5em 1em;
@@ -2252,14 +2253,14 @@ h1 {
       text-decoration: none; }
 
 @media only screen and (min-width: 45em) {
-  /* line 143, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+  /* line 144, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
   .navigation {
     text-align: center;
     float: right;
     display: inline;
     right: 2%; }
 
-  /* line 150, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+  /* line 151, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
   .navigation li {
     float: left;
     width: 33.33%;
@@ -2267,45 +2268,45 @@ h1 {
     width: auto; }
  }
 
-/* line 158, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 159, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
 .footer-nav {
   background-color: #303030;
   padding: 1rem 0; }
 
-/* line 164, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 165, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
 .footer-nav ul {
   padding: 0; }
 
-/* line 168, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 169, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
 .footer-nav li {
   display: block;
   text-align: center;
   padding: 0.5rem;
   color: #222; }
 
-/* line 175, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 176, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
 footer {
   background-color: #282828;
   color: #f6f6f6;
   padding-bottom: 1.5rem; }
 
-/* line 181, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 182, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
 footer p {
   padding-left: 1rem; }
 
 @media only screen and (min-width: 45em) {
-  /* line 186, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+  /* line 187, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
   .footer-nav li {
     display: inline; }
 
-  /* line 190, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+  /* line 191, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
   .footer-nav ul {
     margin: 0 auto;
     text-align: right;
     padding-right: 2rem; }
  }
 
-/* line 198, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 199, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
 .toggle-btn, .close-btn {
   color: white;
   position: relative;
@@ -2315,14 +2316,14 @@ footer p {
   text-decoration: none;
   padding: 0 0.5rem;
   display: block; }
-  /* line 207, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+  /* line 208, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
   .toggle-btn i, .close-btn i {
     padding-top: 0.5rem; }
-  /* line 210, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+  /* line 211, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
   .toggle-btn span, .close-btn span {
     font-size: 0.3rem; }
 
-/* line 216, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 217, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
 .close-btn {
   margin: 1em; }
 
@@ -2330,13 +2331,13 @@ footer p {
  * Sliding Navigation
  */
 @media only screen and (max-width: 45em) {
-  /* line 226, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+  /* line 227, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
   .site-wrapper {
     position: relative;
     overflow: hidden;
     width: 100%;
     z-index: 100; }
-    /* line 231, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+    /* line 232, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
     .site-wrapper .sliding-canvas {
       width: 100%;
       height: 100%;
@@ -2345,16 +2346,16 @@ footer p {
           -ms-transform: translateX(0);
               transform: translateX(0);
       transition: all 300ms ease-in-out; }
-    /* line 239, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+    /* line 240, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
     .site-wrapper[data-state='slide-open'] .sliding-canvas {
       -webkit-transform: translateX(-100%);
           -ms-transform: translateX(-100%);
               transform: translateX(-100%); }
-    /* line 243, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+    /* line 244, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
     .site-wrapper[data-state='slide-open'] {
       overflow: visible; }
 
-  /* line 250, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+  /* line 251, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
   .slide-menu {
     position: absolute;
     width: 100%;
@@ -2367,93 +2368,72 @@ footer p {
  }
 
 @media only screen and (min-width: 45em) {
-  /* line 266, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+  /* line 267, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
   .toggle-btn, .close-btn {
     display: none; }
  }
 
-/* line 271, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 272, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
 .banner {
   width: 100%; }
 
-/* line 275, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 276, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
 .count {
   background-color: #f6f6f6;
   padding: 1.5rem; }
 
-/* line 280, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 281, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
 .count h1 {
   color: #1dc4ca; }
 
-/* line 284, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 285, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
 body.noscript .slide-menu {
   position: static;
   right: auto; }
 
-/* line 289, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 290, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
 div {
   margin: 0;
   padding: 0; }
 
-/* line 294, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 295, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
 .img-flex {
   width: 100%; }
 
-/* line 298, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 299, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
 .donate {
   width: 10em; }
 
-/* line 304, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
-.btn, .btn:link, .btn:visited {
-  display: inline-block;
-  padding: 0.5em 1em;
-  background-color: #fff;
-  border-radius: 20px;
-  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
-  border: 0;
-  color: #21637F;
-  font-weight: bold;
-  text-decoration: none;
-  font-size: 1.5em;
-  text-align: center;
-  width: 8em;
-  margin: 0 4em; }
-
-/* line 323, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
-.btn-alt, .btn-alt:link, .btn-alt:visited {
-  background-color: #21637F;
-  color: #fff; }
-
-/* line 329, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 303, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
 .close {
   width: 1.3em;
   margin: 1em;
   float: right; }
 
-/* line 335, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 309, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
 div {
   margin: 0em;
   padding: 0em; }
 
-/* line 341, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 315, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
 .margin-top {
   margin-top: 4em; }
 
-/* line 345, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 319, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
 .left-align {
   float: left; }
 
-/* line 349, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 323, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
 .center {
   width: 50% auto; }
 
-/* line 353, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 327, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
 .hide-text {
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden; }
 
-/* line 359, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 333, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
 .p-description {
   text-align: center;
   max-height: 0;
@@ -2461,42 +2441,104 @@ div {
   overflow: hidden;
   color: #004371; }
 
-/* line 370, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 344, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
 .p-description[data-state="expanded"] {
   max-height: 22rem; }
 
-/* line 374, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 348, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
 .down-arrow {
   height: 35px;
   width: 35px; }
 
-/* line 379, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 353, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
 .arrow-div {
   text-align: center;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 5rem; }
 
-/* line 386, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 360, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
 .media {
   margin: 0;
   padding: 0;
   list-style-type: none;
   text-align: center; }
 
-/* line 393, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 367, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
 .media li {
   display: inline-block;
   padding: 3rem;
   margin: 0;
   width: 2rem; }
 
-/* line 400, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 374, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
 .media i {
   border: solid 3px;
   padding: 0.7rem;
   border-color: #f6f6f6;
   border-radius: 100px; }
+
+/* ------------ tabs ---------------- */
+/* line 383, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+.tabs h2 {
+  color: #222; }
+
+/* line 387, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+.tabs {
+  padding-top: 2rem; }
+
+/* line 391, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+.etabs {
+  margin: 0;
+  padding: 0; }
+
+/* line 395, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+.tab {
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  background: #cecece;
+  color: #282828;
+  border-bottom: none;
+  -moz-border-radius: 4px 4px 0 0;
+  -webkit-border-radius: 4px 4px 0 0; }
+
+/* line 405, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+.tab a {
+  font-size: 14px;
+  line-height: 2em;
+  display: block;
+  padding: 3px 15px;
+  outline: none;
+  text-decoration: none;
+  color: #222; }
+
+/* line 415, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+.tab a:hover {
+  text-decoration: none; }
+
+/* line 419, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+.tab.active {
+  background: #f6f6f6;
+  padding-top: 6px;
+  position: relative;
+  top: 1px;
+  border-color: #282828; }
+
+/* line 427, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+.tab a.active {
+  font-weight: bold; }
+
+/* line 431, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+.tab-container .panel-container {
+  background: #f6f6f6;
+  padding: 10px;
+  -moz-border-radius: 0 4px 4px 4px;
+  -webkit-border-radius: 0 4px 4px 4px; }
+
+/* line 438, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+.panel-container {
+  margin-bottom: 10px; }
 
 /* line 1, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/typography */
 .hide-text {

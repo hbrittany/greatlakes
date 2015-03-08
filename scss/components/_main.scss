@@ -110,7 +110,8 @@ h1 {
 
 }
 
-.banner h4{
+.btn {
+  display: inline-block;
   text-align: center;
   text-decoration: none;
   background-color: $blue;
@@ -121,7 +122,7 @@ h1 {
   margin: 0 auto;
 }
 
-.banner h4:hover{
+.btn:hover{
   background-color: $light-grey;
   color: $blue;
 }
@@ -299,33 +300,6 @@ div {
     width: 10em;
 }
 
-.btn,
-.btn:link,
-.btn:visited {
-    display: inline-block;
-    padding: 0.5em 1em;
-    background-color:#fff;
-    border-radius: 20px;
-    box-shadow: 1px 1px 4px rgba(0,0,0,0.5);
-    border: 0;
-    color:#21637F;
-    font-weight: bold;
-    text-decoration: none;
-    font-size: 1.5em;
-    text-align: center;
-    width: 8em;
-    margin: 0 4em;
-}
-
-    
-.btn-alt,
-.btn-alt:link,
-.btn-alt:visited {
-    background-color: #21637F;
-    color: #fff;
-}
-
-
 .close {
     width: 1.3em;
     margin:1em;
@@ -402,6 +376,67 @@ div {
   padding: 0.7rem;
   border-color: $light-grey;
   border-radius: 100px;
+}
+
+/* ------------ tabs ---------------- */
+
+.tabs h2 {
+  color: $text-color;
+}
+
+.tabs {
+  padding-top: 2rem;
+}
+
+.etabs { 
+  margin: 0; padding: 0; 
+}
+
+.tab { 
+        display: inline-block; 
+        zoom:1; *display:inline; 
+        background: #cecece; 
+        color: $dark;
+        border-bottom: 
+        none; -moz-border-radius: 4px 4px 0 0;
+         -webkit-border-radius: 4px 4px 0 0; 
+ }
+
+.tab a { 
+        font-size: 14px; 
+        line-height: 2em; 
+        display: block; 
+        padding: 3px 15px; 
+        outline: none;
+        text-decoration: none;
+        color: $text-color; 
+}
+
+.tab a:hover { 
+    text-decoration: none;
+}
+
+.tab.active { 
+    background: $light-grey;
+     padding-top: 6px; 
+     position: relative; 
+     top: 1px; 
+     border-color: $dark; 
+}
+
+.tab a.active { 
+    font-weight: bold;
+}
+
+.tab-container .panel-container { 
+    background: $light-grey; 
+     padding: 10px;
+      -moz-border-radius: 0 4px 4px 4px;
+       -webkit-border-radius: 0 4px 4px 4px; 
+}
+
+.panel-container { 
+        margin-bottom: 10px; 
 }
 
 
