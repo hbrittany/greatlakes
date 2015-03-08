@@ -11,7 +11,7 @@ a:hover {
 
 p {
     margin-top: 2.2em;
-    font-family: 'FontAwesome', Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 1em;
     line-height: 1.5em;
 }
@@ -49,6 +49,7 @@ h4 {
     line-height: 1.5em;
     margin: 0em;
     padding: 0em;
+    font-weight:lighter;
 }
 
 .yotta {
@@ -61,22 +62,22 @@ h4 {
     line-height: 1.4798;
 }
 
-h1, .exa {
+.exa {
     font-size: 1.8020rem;
     line-height: 1.6648;
 }
 
-h2, .peta {
+.peta {
     font-size: 1.6018rem;
     line-height: 1.8729;
 }
 
-h3, .tera {
+.tera {
     font-size: 1.4238rem;
     line-height: 1.0535;
 }
 
-h4, .giga {
+.giga {
     font-size: 1.2656rem;
     line-height: 1.1852;
 }
@@ -129,8 +130,8 @@ small, .milli {
 }
 
 .contact {
-    padding: 1rem;
-    padding-top: 1rem;
+    padding: 2rem 1rem;
     background-color: $dark;
     color: $light-grey;
+
 }

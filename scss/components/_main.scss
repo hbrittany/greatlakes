@@ -53,6 +53,12 @@ body {
   box-sizing: border-box;
 }
 
+article {
+  max-width: 50rem;
+  margin: 2rem auto;
+  padding-bottom: 3rem;
+}
+
 header {
   padding: 2rem 1rem 2rem;
   margin: 0;
@@ -166,6 +172,16 @@ h1 {
     color: $text-color;
 }
 
+footer {
+  background-color: $dark;
+  color: $light-grey;
+  padding-bottom: 1.5rem;
+}
+
+footer p{
+  padding-left: 1rem;
+}
+
 @media only screen and (min-width: 45em){
   .footer-nav li {
   display: inline;
@@ -268,11 +284,6 @@ h1 {
 body.noscript .slide-menu{
   position: static;
   right: auto;
-}
-
-article {
-    margin: 0;
-    padding: 0;
 }
 
 div {
