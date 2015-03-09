@@ -63,6 +63,10 @@ article {
     max-width: 55rem;
 }
 
+article a {
+  color: $text-color;
+}
+
 header {
   padding: 2rem 1rem 2rem;
   margin: 0;
@@ -85,6 +89,7 @@ header {
 
 .max {
     max-width: 70em;
+    padding-bottom: 3rem;
 }
 
 summary {
@@ -93,7 +98,6 @@ summary {
     font-size: 1.2em;
     text-align: center;
 }
-
 
 .banner-section {
     background: transparent url('../images/great-lakes.jpg') no-repeat center center;
@@ -110,46 +114,55 @@ summary {
 .banner-1 {
     background: transparent url('../images/1.jpg') no-repeat center center;
     @include banner;
+    margin-top: 1rem;
 }
 
 .banner-2 {
     background: transparent url('../images/2.jpg') no-repeat center center;
     @include banner;
+     margin-top: 1rem;
 }
 
 .banner-3 {
     background: transparent url('../images/3.jpg') no-repeat center center;
     @include banner;
+     margin-top: 1rem;
 }
 
 .banner-4 {
     background: transparent url('../images/4.jpg') no-repeat center center;
     @include banner;
+     margin-top: 1rem;
 }
 
 .banner-5 {
     background: transparent url('../images/5.jpg') no-repeat center center;
     @include banner;
+     margin-top: 1rem;
 }
 
 .banner-6 {
     background: transparent url('../images/6.jpg') no-repeat center center;
     @include banner;
+     margin-top: 1rem;
 }
 
 .banner-7 {
     background: transparent url('../images/7.jpg') no-repeat center center;
     @include banner;
+     margin-top: 1rem;
 }
 
 .banner-8 {
     background: transparent url('../images/books.jpg') no-repeat center center;
     @include banner;
+     margin-top: 1rem;
 }
 
 .banner-9 {
     background: transparent url('../images/hands.jpg') no-repeat center center;
     @include banner;
+     margin-top: 1rem;
 }
 
 .article a {
@@ -472,6 +485,7 @@ div {
 
 .bucket-two {
   background: url('../images/6.jpg') no-repeat center;
+  text-align: center;
 }
 
 .bucket-one {
