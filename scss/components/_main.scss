@@ -58,10 +58,9 @@ body {
 }
 
 article {
-  max-width: 60rem;
-  margin: 4rem auto;
-  padding-bottom: 3rem;
-
+    margin: 0rem auto;
+    padding-bottom: 3rem;
+    max-width: 100em;
 }
 
 header {
@@ -80,20 +79,68 @@ header {
   }
 }
 
+.center {
+    text-align: center;
+}
+
+.max {
+    max-width: 70em;
+}
+
+summary {
+    color: #fff;
+    background-color: $dark;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+
 .banner-section {
-  background: transparent url('../images/great-lakes.jpg') no-repeat center center;
-  background-size: cover;
-  padding: 14rem 0;
-  margin: 0 auto;
-  color: #fff;
+    background: transparent url('../images/great-lakes.jpg') no-repeat center;
+    background-size: cover;
+    padding: 14rem 0;
+    margin: 0 auto;
+    color: #fff;
 }
 
 .banner-section h2 {
   color: #fff;
+  @include banner
 }
- 
-h1 {
-    padding: 0;
+
+.banner-1 {
+    background: transparent url('../images/1.jpg') no-repeat center center;
+    @include banner;
+}
+
+.banner-2 {
+    background: transparent url('../images/2.jpg') no-repeat center center;
+    @include banner;
+}
+
+.banner-3 {
+    background: transparent url('../images/3.jpg') no-repeat center center;
+    @include banner;
+}
+
+.banner-4 {
+    background: transparent url('../images/4.jpg') no-repeat center center;
+    @include banner;
+}
+
+.banner-5 {
+    background: transparent url('../images/5.jpg') no-repeat center center;
+    @include banner;
+}
+
+.banner-6 {
+    background: transparent url('../images/6.jpg') no-repeat center center;
+    @include banner;
+}
+
+.banner-7 {
+    background: transparent url('../images/7.jpg') no-repeat center center;
+    @include banner;
 }
 
 .article a {
@@ -309,6 +356,10 @@ div {
 
 .img-flex {
     width: 100%;
+}
+
+.img-width {
+    width: 30em;
 }
 
 .donate {

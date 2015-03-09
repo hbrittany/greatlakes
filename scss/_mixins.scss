@@ -26,3 +26,9 @@
   white-space: normal;
   overflow: visible;
 }
+
+@mixin banner{
+    background-size: cover;
+    padding: 14rem 0;
+    margin: 0;
+}

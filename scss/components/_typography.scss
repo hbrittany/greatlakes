@@ -14,6 +14,7 @@ p {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 1em;
     line-height: 1.5em;
+    max-width: 100em;
 }
 
 h1 {
@@ -23,12 +24,15 @@ h1 {
     color: $blue;
     font-weight:lighter;
     padding-top: 3rem;
+    margin: 0em;
+    padding: 03m;
 }
 
 h2 {
     font-family: 'FontAwesome', Helvetica, Arial sans-serif;
     text-align: center;
-    color: $dark;
+    color: $light-grey;
+    line-height: 1.5em;
     font-weight:lighter;
     margin: 1.2em 0em 0.7em 0em;
     padding: 0em;
@@ -37,10 +41,8 @@ h2 {
 h3 {
     font-family: 'FontAwesome', Helvetica, Arial sans-serif;
     text-align: center;
-    color: #fff;
     font-weight:400;
     font-size: 1.3em;
-    line-height: 1.4em;
     font-weight: bold;
 }
 
@@ -120,6 +122,14 @@ small, .milli {
     background-color: #B9E4F5;
     margin: 0em;
     padding: 2em 0em 4em 0em; 
+}
+
+.white {
+    color: #fff;
+}
+
+.black-text {
+    color: black;
 }
 
 .blue-text {
