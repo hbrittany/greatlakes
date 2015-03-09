@@ -55,9 +55,12 @@ h4 {
     font-weight:lighter;
 }
 
-.who-we-are-p {
+.white-background {
+    background-color: #fff;
+}
+
+.white {
     color: white;
-    background-color: $dark;
 }
 
 
@@ -128,10 +131,6 @@ small, .milli {
     background-color: #B9E4F5;
     margin: 0em;
     padding: 2em 0em 4em 0em; 
-}
-
-.white {
-    color: #fff;
 }
 
 .black-text {

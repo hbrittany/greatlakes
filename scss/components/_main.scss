@@ -142,6 +142,16 @@ summary {
     @include banner;
 }
 
+.banner-8 {
+    background: transparent url('../images/books.jpg') no-repeat center center;
+    @include banner;
+}
+
+.banner-9 {
+    background: transparent url('../images/hands.jpg') no-repeat center center;
+    @include banner;
+}
+
 .article a {
   color: $dark;
 }
