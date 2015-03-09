@@ -12,9 +12,8 @@
   font-weight: normal;
   font-style: normal; }
 
-/* line 14, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 14, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa {
-  display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
   text-rendering: auto;
@@ -22,145 +21,127 @@
   -moz-osx-font-smoothing: grayscale; }
 
 /* makes the font 33% larger relative to the icon container */
-/* line 23, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 22, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-lg {
   font-size: 1.33333333em;
   line-height: 0.75em;
   vertical-align: -15%; }
 
-/* line 28, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 27, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-2x {
   font-size: 2em; }
 
-/* line 31, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 30, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-3x {
   font-size: 3em; }
 
-/* line 34, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 33, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-4x {
   font-size: 4em; }
 
-/* line 37, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 36, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-5x {
   font-size: 5em; }
 
-/* line 40, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 39, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-fw {
   width: 1.28571429em;
   text-align: center; }
 
-/* line 44, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 44, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-ul {
-  padding-left: 0;
-  margin-left: 2.14285714em;
-  list-style-type: none; }
+  padding: 0; }
 
-/* line 49, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
-.fa-ul > li {
-  position: relative; }
-
-/* line 52, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
-.fa-li {
-  position: absolute;
-  left: -2.14285714em;
-  width: 2.14285714em;
-  top: 0.14285714em;
-  text-align: center; }
-
-/* line 59, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
-.fa-li.fa-lg {
-  left: -1.85714286em; }
-
-/* line 62, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 48, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-border {
   padding: 0.2em 0.25em 0.15em;
   border: solid 0.08em #eeeeee;
   border-radius: 0.1em; }
 
-/* line 67, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 53, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .pull-right {
   float: right; }
 
-/* line 70, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 56, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .pull-left {
   float: left; }
 
-/* line 73, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 59, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa.pull-left {
   margin-right: 0.3em; }
 
-/* line 76, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 62, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa.pull-right {
   margin-left: 0.3em; }
 
-/* line 79, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 65, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-spin {
   -webkit-animation: fa-spin 2s infinite linear;
   animation: fa-spin 2s infinite linear; }
 
 @-webkit-keyframes fa-spin {
-  /* line 84, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+  /* line 70, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg); }
 
-  /* line 88, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+  /* line 74, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
   100% {
     -webkit-transform: rotate(359deg);
     transform: rotate(359deg); } }
 
 @keyframes fa-spin {
-  /* line 94, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+  /* line 80, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg); }
 
-  /* line 98, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+  /* line 84, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
   100% {
     -webkit-transform: rotate(359deg);
     transform: rotate(359deg); } }
 
-/* line 103, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 89, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-rotate-90 {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
   -webkit-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   transform: rotate(90deg); }
 
-/* line 109, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 95, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-rotate-180 {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg); }
 
-/* line 115, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 101, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-rotate-270 {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
   -webkit-transform: rotate(270deg);
   -ms-transform: rotate(270deg);
   transform: rotate(270deg); }
 
-/* line 121, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 107, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-flip-horizontal {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);
   -webkit-transform: scale(-1, 1);
   -ms-transform: scale(-1, 1);
   transform: scale(-1, 1); }
 
-/* line 127, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 113, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-flip-vertical {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
   -webkit-transform: scale(1, -1);
   -ms-transform: scale(1, -1);
   transform: scale(1, -1); }
 
-/* line 137, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 123, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 :root .fa-rotate-90, :root .fa-rotate-180, :root .fa-rotate-270, :root .fa-flip-horizontal, :root .fa-flip-vertical {
   -webkit-filter: none;
           filter: none; }
 
-/* line 140, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 126, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-stack {
   position: relative;
   display: inline-block;
@@ -169,1940 +150,1940 @@
   line-height: 2em;
   vertical-align: middle; }
 
-/* line 149, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 135, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-stack-1x, .fa-stack-2x {
   position: absolute;
   left: 0;
   width: 100%;
   text-align: center; }
 
-/* line 155, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 141, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-stack-1x {
   line-height: inherit; }
 
-/* line 158, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 144, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-stack-2x {
   font-size: 2em; }
 
-/* line 161, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 147, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-inverse {
   color: #ffffff; }
 
 /* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
    readers do not read off random characters that represent icons */
-/* line 166, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 152, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-glass:before {
   content: "\f000"; }
 
-/* line 169, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 155, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-music:before {
   content: "\f001"; }
 
-/* line 172, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 158, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-search:before {
   content: "\f002"; }
 
-/* line 175, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 161, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-envelope-o:before {
   content: "\f003"; }
 
-/* line 178, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 164, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-heart:before {
   content: "\f004"; }
 
-/* line 181, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 167, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-star:before {
   content: "\f005"; }
 
-/* line 184, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 170, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-star-o:before {
   content: "\f006"; }
 
-/* line 187, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 173, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-user:before {
   content: "\f007"; }
 
-/* line 190, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 176, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-film:before {
   content: "\f008"; }
 
-/* line 193, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 179, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-th-large:before {
   content: "\f009"; }
 
-/* line 196, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 182, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-th:before {
   content: "\f00a"; }
 
-/* line 199, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 185, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-th-list:before {
   content: "\f00b"; }
 
-/* line 202, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 188, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-check:before {
   content: "\f00c"; }
 
-/* line 207, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 193, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-remove:before, .fa-close:before, .fa-times:before {
   content: "\f00d"; }
 
-/* line 210, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 196, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-search-plus:before {
   content: "\f00e"; }
 
-/* line 213, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 199, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-search-minus:before {
   content: "\f010"; }
 
-/* line 216, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 202, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-power-off:before {
   content: "\f011"; }
 
-/* line 219, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 205, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-signal:before {
   content: "\f012"; }
 
-/* line 223, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 209, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-gear:before, .fa-cog:before {
   content: "\f013"; }
 
-/* line 226, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 212, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-trash-o:before {
   content: "\f014"; }
 
-/* line 229, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 215, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-home:before {
   content: "\f015"; }
 
-/* line 232, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 218, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-file-o:before {
   content: "\f016"; }
 
-/* line 235, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 221, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-clock-o:before {
   content: "\f017"; }
 
-/* line 238, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 224, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-road:before {
   content: "\f018"; }
 
-/* line 241, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 227, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-download:before {
   content: "\f019"; }
 
-/* line 244, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 230, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-arrow-circle-o-down:before {
   content: "\f01a"; }
 
-/* line 247, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 233, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-arrow-circle-o-up:before {
   content: "\f01b"; }
 
-/* line 250, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 236, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-inbox:before {
   content: "\f01c"; }
 
-/* line 253, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 239, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-play-circle-o:before {
   content: "\f01d"; }
 
-/* line 257, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 243, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-rotate-right:before, .fa-repeat:before {
   content: "\f01e"; }
 
-/* line 260, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 246, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-refresh:before {
   content: "\f021"; }
 
-/* line 263, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 249, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-list-alt:before {
   content: "\f022"; }
 
-/* line 266, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 252, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-lock:before {
   content: "\f023"; }
 
-/* line 269, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 255, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-flag:before {
   content: "\f024"; }
 
-/* line 272, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 258, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-headphones:before {
   content: "\f025"; }
 
-/* line 275, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 261, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-volume-off:before {
   content: "\f026"; }
 
-/* line 278, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 264, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-volume-down:before {
   content: "\f027"; }
 
-/* line 281, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 267, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-volume-up:before {
   content: "\f028"; }
 
-/* line 284, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 270, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-qrcode:before {
   content: "\f029"; }
 
-/* line 287, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 273, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-barcode:before {
   content: "\f02a"; }
 
-/* line 290, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 276, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-tag:before {
   content: "\f02b"; }
 
-/* line 293, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 279, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-tags:before {
   content: "\f02c"; }
 
-/* line 296, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 282, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-book:before {
   content: "\f02d"; }
 
-/* line 299, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 285, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-bookmark:before {
   content: "\f02e"; }
 
-/* line 302, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 288, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-print:before {
   content: "\f02f"; }
 
-/* line 305, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 291, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-camera:before {
   content: "\f030"; }
 
-/* line 308, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 294, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-font:before {
   content: "\f031"; }
 
-/* line 311, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 297, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-bold:before {
   content: "\f032"; }
 
-/* line 314, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 300, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-italic:before {
   content: "\f033"; }
 
-/* line 317, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 303, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-text-height:before {
   content: "\f034"; }
 
-/* line 320, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 306, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-text-width:before {
   content: "\f035"; }
 
-/* line 323, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 309, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-align-left:before {
   content: "\f036"; }
 
-/* line 326, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 312, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-align-center:before {
   content: "\f037"; }
 
-/* line 329, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 315, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-align-right:before {
   content: "\f038"; }
 
-/* line 332, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 318, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-align-justify:before {
   content: "\f039"; }
 
-/* line 335, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 321, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-list:before {
   content: "\f03a"; }
 
-/* line 339, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 325, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-dedent:before, .fa-outdent:before {
   content: "\f03b"; }
 
-/* line 342, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 328, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-indent:before {
   content: "\f03c"; }
 
-/* line 345, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 331, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-video-camera:before {
   content: "\f03d"; }
 
-/* line 350, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 336, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-photo:before, .fa-image:before, .fa-picture-o:before {
   content: "\f03e"; }
 
-/* line 353, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 339, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-pencil:before {
   content: "\f040"; }
 
-/* line 356, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 342, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-map-marker:before {
   content: "\f041"; }
 
-/* line 359, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 345, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-adjust:before {
   content: "\f042"; }
 
-/* line 362, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 348, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-tint:before {
   content: "\f043"; }
 
-/* line 366, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 352, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-edit:before, .fa-pencil-square-o:before {
   content: "\f044"; }
 
-/* line 369, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 355, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-share-square-o:before {
   content: "\f045"; }
 
-/* line 372, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 358, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-check-square-o:before {
   content: "\f046"; }
 
-/* line 375, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 361, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-arrows:before {
   content: "\f047"; }
 
-/* line 378, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 364, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-step-backward:before {
   content: "\f048"; }
 
-/* line 381, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 367, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-fast-backward:before {
   content: "\f049"; }
 
-/* line 384, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 370, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-backward:before {
   content: "\f04a"; }
 
-/* line 387, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 373, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-play:before {
   content: "\f04b"; }
 
-/* line 390, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 376, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-pause:before {
   content: "\f04c"; }
 
-/* line 393, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 379, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-stop:before {
   content: "\f04d"; }
 
-/* line 396, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 382, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-forward:before {
   content: "\f04e"; }
 
-/* line 399, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 385, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-fast-forward:before {
   content: "\f050"; }
 
-/* line 402, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 388, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-step-forward:before {
   content: "\f051"; }
 
-/* line 405, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 391, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-eject:before {
   content: "\f052"; }
 
-/* line 408, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 394, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-chevron-left:before {
   content: "\f053"; }
 
-/* line 411, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 397, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-chevron-right:before {
   content: "\f054"; }
 
-/* line 414, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 400, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-plus-circle:before {
   content: "\f055"; }
 
-/* line 417, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 403, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-minus-circle:before {
   content: "\f056"; }
 
-/* line 420, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 406, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-times-circle:before {
   content: "\f057"; }
 
-/* line 423, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 409, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-check-circle:before {
   content: "\f058"; }
 
-/* line 426, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 412, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-question-circle:before {
   content: "\f059"; }
 
-/* line 429, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 415, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-info-circle:before {
   content: "\f05a"; }
 
-/* line 432, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 418, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-crosshairs:before {
   content: "\f05b"; }
 
-/* line 435, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 421, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-times-circle-o:before {
   content: "\f05c"; }
 
-/* line 438, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 424, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-check-circle-o:before {
   content: "\f05d"; }
 
-/* line 441, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 427, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-ban:before {
   content: "\f05e"; }
 
-/* line 444, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 430, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-arrow-left:before {
   content: "\f060"; }
 
-/* line 447, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 433, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-arrow-right:before {
   content: "\f061"; }
 
-/* line 450, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 436, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-arrow-up:before {
   content: "\f062"; }
 
-/* line 453, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 439, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-arrow-down:before {
   content: "\f063"; }
 
-/* line 457, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 443, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-mail-forward:before, .fa-share:before {
   content: "\f064"; }
 
-/* line 460, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 446, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-expand:before {
   content: "\f065"; }
 
-/* line 463, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 449, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-compress:before {
   content: "\f066"; }
 
-/* line 466, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 452, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-plus:before {
   content: "\f067"; }
 
-/* line 469, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 455, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-minus:before {
   content: "\f068"; }
 
-/* line 472, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 458, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-asterisk:before {
   content: "\f069"; }
 
-/* line 475, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 461, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-exclamation-circle:before {
   content: "\f06a"; }
 
-/* line 478, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 464, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-gift:before {
   content: "\f06b"; }
 
-/* line 481, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 467, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-leaf:before {
   content: "\f06c"; }
 
-/* line 484, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 470, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-fire:before {
   content: "\f06d"; }
 
-/* line 487, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 473, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-eye:before {
   content: "\f06e"; }
 
-/* line 490, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 476, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-eye-slash:before {
   content: "\f070"; }
 
-/* line 494, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 480, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-warning:before, .fa-exclamation-triangle:before {
   content: "\f071"; }
 
-/* line 497, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 483, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-plane:before {
   content: "\f072"; }
 
-/* line 500, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 486, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-calendar:before {
   content: "\f073"; }
 
-/* line 503, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 489, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-random:before {
   content: "\f074"; }
 
-/* line 506, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 492, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-comment:before {
   content: "\f075"; }
 
-/* line 509, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 495, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-magnet:before {
   content: "\f076"; }
 
-/* line 512, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 498, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-chevron-up:before {
   content: "\f077"; }
 
-/* line 515, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 501, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-chevron-down:before {
   content: "\f078"; }
 
-/* line 518, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 504, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-retweet:before {
   content: "\f079"; }
 
-/* line 521, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 507, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-shopping-cart:before {
   content: "\f07a"; }
 
-/* line 524, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 510, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-folder:before {
   content: "\f07b"; }
 
-/* line 527, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 513, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-folder-open:before {
   content: "\f07c"; }
 
-/* line 530, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 516, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-arrows-v:before {
   content: "\f07d"; }
 
-/* line 533, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 519, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-arrows-h:before {
   content: "\f07e"; }
 
-/* line 537, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 523, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-bar-chart-o:before, .fa-bar-chart:before {
   content: "\f080"; }
 
-/* line 540, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 526, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-twitter-square:before {
   content: "\f081"; }
 
-/* line 543, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 529, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-facebook-square:before {
   content: "\f082"; }
 
-/* line 546, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 532, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-camera-retro:before {
   content: "\f083"; }
 
-/* line 549, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 535, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-key:before {
   content: "\f084"; }
 
-/* line 553, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 539, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-gears:before, .fa-cogs:before {
   content: "\f085"; }
 
-/* line 556, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 542, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-comments:before {
   content: "\f086"; }
 
-/* line 559, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 545, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-thumbs-o-up:before {
   content: "\f087"; }
 
-/* line 562, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 548, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-thumbs-o-down:before {
   content: "\f088"; }
 
-/* line 565, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 551, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-star-half:before {
   content: "\f089"; }
 
-/* line 568, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 554, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-heart-o:before {
   content: "\f08a"; }
 
-/* line 571, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 557, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-sign-out:before {
   content: "\f08b"; }
 
-/* line 574, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 560, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-linkedin-square:before {
   content: "\f08c"; }
 
-/* line 577, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 563, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-thumb-tack:before {
   content: "\f08d"; }
 
-/* line 580, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 566, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-external-link:before {
   content: "\f08e"; }
 
-/* line 583, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 569, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-sign-in:before {
   content: "\f090"; }
 
-/* line 586, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 572, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-trophy:before {
   content: "\f091"; }
 
-/* line 589, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 575, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-github-square:before {
   content: "\f092"; }
 
-/* line 592, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 578, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-upload:before {
   content: "\f093"; }
 
-/* line 595, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 581, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-lemon-o:before {
   content: "\f094"; }
 
-/* line 598, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 584, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-phone:before {
   content: "\f095"; }
 
-/* line 601, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 587, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-square-o:before {
   content: "\f096"; }
 
-/* line 604, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 590, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-bookmark-o:before {
   content: "\f097"; }
 
-/* line 607, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 593, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-phone-square:before {
   content: "\f098"; }
 
-/* line 610, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 596, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-twitter:before {
   content: "\f099"; }
 
-/* line 613, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 599, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-facebook:before {
   content: "\f09a"; }
 
-/* line 616, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 602, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-github:before {
   content: "\f09b"; }
 
-/* line 619, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 605, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-unlock:before {
   content: "\f09c"; }
 
-/* line 622, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 608, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-credit-card:before {
   content: "\f09d"; }
 
-/* line 625, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 611, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-rss:before {
   content: "\f09e"; }
 
-/* line 628, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 614, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-hdd-o:before {
   content: "\f0a0"; }
 
-/* line 631, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 617, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-bullhorn:before {
   content: "\f0a1"; }
 
-/* line 634, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 620, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-bell:before {
   content: "\f0f3"; }
 
-/* line 637, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 623, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-certificate:before {
   content: "\f0a3"; }
 
-/* line 640, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 626, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-hand-o-right:before {
   content: "\f0a4"; }
 
-/* line 643, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 629, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-hand-o-left:before {
   content: "\f0a5"; }
 
-/* line 646, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 632, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-hand-o-up:before {
   content: "\f0a6"; }
 
-/* line 649, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 635, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-hand-o-down:before {
   content: "\f0a7"; }
 
-/* line 652, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 638, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-arrow-circle-left:before {
   content: "\f0a8"; }
 
-/* line 655, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 641, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-arrow-circle-right:before {
   content: "\f0a9"; }
 
-/* line 658, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 644, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-arrow-circle-up:before {
   content: "\f0aa"; }
 
-/* line 661, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 647, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-arrow-circle-down:before {
   content: "\f0ab"; }
 
-/* line 664, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 650, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-globe:before {
   content: "\f0ac"; }
 
-/* line 667, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 653, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-wrench:before {
   content: "\f0ad"; }
 
-/* line 670, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 656, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-tasks:before {
   content: "\f0ae"; }
 
-/* line 673, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 659, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-filter:before {
   content: "\f0b0"; }
 
-/* line 676, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 662, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-briefcase:before {
   content: "\f0b1"; }
 
-/* line 679, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 665, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-arrows-alt:before {
   content: "\f0b2"; }
 
-/* line 683, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 669, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-group:before, .fa-users:before {
   content: "\f0c0"; }
 
-/* line 687, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 673, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-chain:before, .fa-link:before {
   content: "\f0c1"; }
 
-/* line 690, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 676, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-cloud:before {
   content: "\f0c2"; }
 
-/* line 693, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 679, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-flask:before {
   content: "\f0c3"; }
 
-/* line 697, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 683, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-cut:before, .fa-scissors:before {
   content: "\f0c4"; }
 
-/* line 701, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 687, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-copy:before, .fa-files-o:before {
   content: "\f0c5"; }
 
-/* line 704, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 690, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-paperclip:before {
   content: "\f0c6"; }
 
-/* line 708, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 694, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-save:before, .fa-floppy-o:before {
   content: "\f0c7"; }
 
-/* line 711, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 697, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-square:before {
   content: "\f0c8"; }
 
-/* line 716, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 702, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-navicon:before, .fa-reorder:before, .fa-bars:before {
   content: "\f0c9"; }
 
-/* line 719, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 705, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-list-ul:before {
   content: "\f0ca"; }
 
-/* line 722, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 708, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-list-ol:before {
   content: "\f0cb"; }
 
-/* line 725, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 711, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-strikethrough:before {
   content: "\f0cc"; }
 
-/* line 728, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 714, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-underline:before {
   content: "\f0cd"; }
 
-/* line 731, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 717, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-table:before {
   content: "\f0ce"; }
 
-/* line 734, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 720, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-magic:before {
   content: "\f0d0"; }
 
-/* line 737, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 723, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-truck:before {
   content: "\f0d1"; }
 
-/* line 740, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 726, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-pinterest:before {
   content: "\f0d2"; }
 
-/* line 743, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 729, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-pinterest-square:before {
   content: "\f0d3"; }
 
-/* line 746, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 732, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-google-plus-square:before {
   content: "\f0d4"; }
 
-/* line 749, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 735, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-google-plus:before {
   content: "\f0d5"; }
 
-/* line 752, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 738, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-money:before {
   content: "\f0d6"; }
 
-/* line 755, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 741, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-caret-down:before {
   content: "\f0d7"; }
 
-/* line 758, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 744, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-caret-up:before {
   content: "\f0d8"; }
 
-/* line 761, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 747, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-caret-left:before {
   content: "\f0d9"; }
 
-/* line 764, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 750, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-caret-right:before {
   content: "\f0da"; }
 
-/* line 767, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 753, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-columns:before {
   content: "\f0db"; }
 
-/* line 771, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 757, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-unsorted:before, .fa-sort:before {
   content: "\f0dc"; }
 
-/* line 775, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 761, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-sort-down:before, .fa-sort-desc:before {
   content: "\f0dd"; }
 
-/* line 779, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 765, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-sort-up:before, .fa-sort-asc:before {
   content: "\f0de"; }
 
-/* line 782, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 768, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-envelope:before {
   content: "\f0e0"; }
 
-/* line 785, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 771, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-linkedin:before {
   content: "\f0e1"; }
 
-/* line 789, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 775, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-rotate-left:before, .fa-undo:before {
   content: "\f0e2"; }
 
-/* line 793, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 779, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-legal:before, .fa-gavel:before {
   content: "\f0e3"; }
 
-/* line 797, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 783, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-dashboard:before, .fa-tachometer:before {
   content: "\f0e4"; }
 
-/* line 800, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 786, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-comment-o:before {
   content: "\f0e5"; }
 
-/* line 803, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 789, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-comments-o:before {
   content: "\f0e6"; }
 
-/* line 807, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 793, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-flash:before, .fa-bolt:before {
   content: "\f0e7"; }
 
-/* line 810, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 796, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-sitemap:before {
   content: "\f0e8"; }
 
-/* line 813, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 799, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-umbrella:before {
   content: "\f0e9"; }
 
-/* line 817, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 803, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-paste:before, .fa-clipboard:before {
   content: "\f0ea"; }
 
-/* line 820, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 806, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-lightbulb-o:before {
   content: "\f0eb"; }
 
-/* line 823, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 809, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-exchange:before {
   content: "\f0ec"; }
 
-/* line 826, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 812, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-cloud-download:before {
   content: "\f0ed"; }
 
-/* line 829, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 815, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-cloud-upload:before {
   content: "\f0ee"; }
 
-/* line 832, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 818, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-user-md:before {
   content: "\f0f0"; }
 
-/* line 835, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 821, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-stethoscope:before {
   content: "\f0f1"; }
 
-/* line 838, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 824, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-suitcase:before {
   content: "\f0f2"; }
 
-/* line 841, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 827, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-bell-o:before {
   content: "\f0a2"; }
 
-/* line 844, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 830, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-coffee:before {
   content: "\f0f4"; }
 
-/* line 847, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 833, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-cutlery:before {
   content: "\f0f5"; }
 
-/* line 850, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 836, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-file-text-o:before {
   content: "\f0f6"; }
 
-/* line 853, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 839, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-building-o:before {
   content: "\f0f7"; }
 
-/* line 856, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 842, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-hospital-o:before {
   content: "\f0f8"; }
 
-/* line 859, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 845, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-ambulance:before {
   content: "\f0f9"; }
 
-/* line 862, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 848, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-medkit:before {
   content: "\f0fa"; }
 
-/* line 865, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 851, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-fighter-jet:before {
   content: "\f0fb"; }
 
-/* line 868, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 854, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-beer:before {
   content: "\f0fc"; }
 
-/* line 871, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 857, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-h-square:before {
   content: "\f0fd"; }
 
-/* line 874, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 860, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-plus-square:before {
   content: "\f0fe"; }
 
-/* line 877, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 863, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-angle-double-left:before {
   content: "\f100"; }
 
-/* line 880, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 866, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-angle-double-right:before {
   content: "\f101"; }
 
-/* line 883, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 869, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-angle-double-up:before {
   content: "\f102"; }
 
-/* line 886, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 872, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-angle-double-down:before {
   content: "\f103"; }
 
-/* line 889, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 875, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-angle-left:before {
   content: "\f104"; }
 
-/* line 892, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 878, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-angle-right:before {
   content: "\f105"; }
 
-/* line 895, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 881, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-angle-up:before {
   content: "\f106"; }
 
-/* line 898, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 884, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-angle-down:before {
   content: "\f107"; }
 
-/* line 901, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 887, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-desktop:before {
   content: "\f108"; }
 
-/* line 904, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 890, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-laptop:before {
   content: "\f109"; }
 
-/* line 907, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 893, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-tablet:before {
   content: "\f10a"; }
 
-/* line 911, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 897, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-mobile-phone:before, .fa-mobile:before {
   content: "\f10b"; }
 
-/* line 914, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 900, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-circle-o:before {
   content: "\f10c"; }
 
-/* line 917, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 903, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-quote-left:before {
   content: "\f10d"; }
 
-/* line 920, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 906, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-quote-right:before {
   content: "\f10e"; }
 
-/* line 923, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 909, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-spinner:before {
   content: "\f110"; }
 
-/* line 926, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 912, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-circle:before {
   content: "\f111"; }
 
-/* line 930, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 916, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-mail-reply:before, .fa-reply:before {
   content: "\f112"; }
 
-/* line 933, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 919, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-github-alt:before {
   content: "\f113"; }
 
-/* line 936, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 922, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-folder-o:before {
   content: "\f114"; }
 
-/* line 939, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 925, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-folder-open-o:before {
   content: "\f115"; }
 
-/* line 942, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 928, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-smile-o:before {
   content: "\f118"; }
 
-/* line 945, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 931, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-frown-o:before {
   content: "\f119"; }
 
-/* line 948, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 934, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-meh-o:before {
   content: "\f11a"; }
 
-/* line 951, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 937, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-gamepad:before {
   content: "\f11b"; }
 
-/* line 954, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 940, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-keyboard-o:before {
   content: "\f11c"; }
 
-/* line 957, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 943, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-flag-o:before {
   content: "\f11d"; }
 
-/* line 960, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 946, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-flag-checkered:before {
   content: "\f11e"; }
 
-/* line 963, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 949, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-terminal:before {
   content: "\f120"; }
 
-/* line 966, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 952, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-code:before {
   content: "\f121"; }
 
-/* line 970, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 956, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-mail-reply-all:before, .fa-reply-all:before {
   content: "\f122"; }
 
-/* line 975, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 961, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-star-half-empty:before, .fa-star-half-full:before, .fa-star-half-o:before {
   content: "\f123"; }
 
-/* line 978, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 964, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-location-arrow:before {
   content: "\f124"; }
 
-/* line 981, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 967, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-crop:before {
   content: "\f125"; }
 
-/* line 984, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 970, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-code-fork:before {
   content: "\f126"; }
 
-/* line 988, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 974, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-unlink:before, .fa-chain-broken:before {
   content: "\f127"; }
 
-/* line 991, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 977, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-question:before {
   content: "\f128"; }
 
-/* line 994, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 980, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-info:before {
   content: "\f129"; }
 
-/* line 997, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 983, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-exclamation:before {
   content: "\f12a"; }
 
-/* line 1000, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 986, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-superscript:before {
   content: "\f12b"; }
 
-/* line 1003, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 989, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-subscript:before {
   content: "\f12c"; }
 
-/* line 1006, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 992, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-eraser:before {
   content: "\f12d"; }
 
-/* line 1009, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 995, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-puzzle-piece:before {
   content: "\f12e"; }
 
-/* line 1012, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 998, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-microphone:before {
   content: "\f130"; }
 
-/* line 1015, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1001, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-microphone-slash:before {
   content: "\f131"; }
 
-/* line 1018, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1004, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-shield:before {
   content: "\f132"; }
 
-/* line 1021, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1007, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-calendar-o:before {
   content: "\f133"; }
 
-/* line 1024, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1010, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-fire-extinguisher:before {
   content: "\f134"; }
 
-/* line 1027, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1013, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-rocket:before {
   content: "\f135"; }
 
-/* line 1030, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1016, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-maxcdn:before {
   content: "\f136"; }
 
-/* line 1033, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1019, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-chevron-circle-left:before {
   content: "\f137"; }
 
-/* line 1036, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1022, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-chevron-circle-right:before {
   content: "\f138"; }
 
-/* line 1039, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1025, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-chevron-circle-up:before {
   content: "\f139"; }
 
-/* line 1042, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1028, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-chevron-circle-down:before {
   content: "\f13a"; }
 
-/* line 1045, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1031, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-html5:before {
   content: "\f13b"; }
 
-/* line 1048, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1034, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-css3:before {
   content: "\f13c"; }
 
-/* line 1051, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1037, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-anchor:before {
   content: "\f13d"; }
 
-/* line 1054, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1040, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-unlock-alt:before {
   content: "\f13e"; }
 
-/* line 1057, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1043, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-bullseye:before {
   content: "\f140"; }
 
-/* line 1060, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1046, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-ellipsis-h:before {
   content: "\f141"; }
 
-/* line 1063, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1049, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-ellipsis-v:before {
   content: "\f142"; }
 
-/* line 1066, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1052, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-rss-square:before {
   content: "\f143"; }
 
-/* line 1069, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1055, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-play-circle:before {
   content: "\f144"; }
 
-/* line 1072, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1058, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-ticket:before {
   content: "\f145"; }
 
-/* line 1075, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1061, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-minus-square:before {
   content: "\f146"; }
 
-/* line 1078, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1064, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-minus-square-o:before {
   content: "\f147"; }
 
-/* line 1081, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1067, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-level-up:before {
   content: "\f148"; }
 
-/* line 1084, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1070, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-level-down:before {
   content: "\f149"; }
 
-/* line 1087, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1073, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-check-square:before {
   content: "\f14a"; }
 
-/* line 1090, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1076, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-pencil-square:before {
   content: "\f14b"; }
 
-/* line 1093, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1079, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-external-link-square:before {
   content: "\f14c"; }
 
-/* line 1096, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1082, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-share-square:before {
   content: "\f14d"; }
 
-/* line 1099, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1085, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-compass:before {
   content: "\f14e"; }
 
-/* line 1103, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1089, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-toggle-down:before, .fa-caret-square-o-down:before {
   content: "\f150"; }
 
-/* line 1107, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1093, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-toggle-up:before, .fa-caret-square-o-up:before {
   content: "\f151"; }
 
-/* line 1111, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1097, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-toggle-right:before, .fa-caret-square-o-right:before {
   content: "\f152"; }
 
-/* line 1115, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1101, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-euro:before, .fa-eur:before {
   content: "\f153"; }
 
-/* line 1118, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1104, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-gbp:before {
   content: "\f154"; }
 
-/* line 1122, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1108, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-dollar:before, .fa-usd:before {
   content: "\f155"; }
 
-/* line 1126, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1112, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-rupee:before, .fa-inr:before {
   content: "\f156"; }
 
-/* line 1132, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1118, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-cny:before, .fa-rmb:before, .fa-yen:before, .fa-jpy:before {
   content: "\f157"; }
 
-/* line 1137, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1123, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-ruble:before, .fa-rouble:before, .fa-rub:before {
   content: "\f158"; }
 
-/* line 1141, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1127, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-won:before, .fa-krw:before {
   content: "\f159"; }
 
-/* line 1145, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1131, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-bitcoin:before, .fa-btc:before {
   content: "\f15a"; }
 
-/* line 1148, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1134, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-file:before {
   content: "\f15b"; }
 
-/* line 1151, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1137, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-file-text:before {
   content: "\f15c"; }
 
-/* line 1154, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1140, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-sort-alpha-asc:before {
   content: "\f15d"; }
 
-/* line 1157, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1143, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-sort-alpha-desc:before {
   content: "\f15e"; }
 
-/* line 1160, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1146, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-sort-amount-asc:before {
   content: "\f160"; }
 
-/* line 1163, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1149, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-sort-amount-desc:before {
   content: "\f161"; }
 
-/* line 1166, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1152, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-sort-numeric-asc:before {
   content: "\f162"; }
 
-/* line 1169, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1155, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-sort-numeric-desc:before {
   content: "\f163"; }
 
-/* line 1172, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1158, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-thumbs-up:before {
   content: "\f164"; }
 
-/* line 1175, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1161, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-thumbs-down:before {
   content: "\f165"; }
 
-/* line 1178, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1164, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-youtube-square:before {
   content: "\f166"; }
 
-/* line 1181, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1167, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-youtube:before {
   content: "\f167"; }
 
-/* line 1184, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1170, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-xing:before {
   content: "\f168"; }
 
-/* line 1187, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1173, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-xing-square:before {
   content: "\f169"; }
 
-/* line 1190, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1176, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-youtube-play:before {
   content: "\f16a"; }
 
-/* line 1193, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1179, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-dropbox:before {
   content: "\f16b"; }
 
-/* line 1196, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1182, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-stack-overflow:before {
   content: "\f16c"; }
 
-/* line 1199, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1185, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-instagram:before {
   content: "\f16d"; }
 
-/* line 1202, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1188, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-flickr:before {
   content: "\f16e"; }
 
-/* line 1205, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1191, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-adn:before {
   content: "\f170"; }
 
-/* line 1208, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1194, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-bitbucket:before {
   content: "\f171"; }
 
-/* line 1211, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1197, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-bitbucket-square:before {
   content: "\f172"; }
 
-/* line 1214, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1200, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-tumblr:before {
   content: "\f173"; }
 
-/* line 1217, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1203, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-tumblr-square:before {
   content: "\f174"; }
 
-/* line 1220, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1206, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-long-arrow-down:before {
   content: "\f175"; }
 
-/* line 1223, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1209, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-long-arrow-up:before {
   content: "\f176"; }
 
-/* line 1226, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1212, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-long-arrow-left:before {
   content: "\f177"; }
 
-/* line 1229, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1215, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-long-arrow-right:before {
   content: "\f178"; }
 
-/* line 1232, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1218, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-apple:before {
   content: "\f179"; }
 
-/* line 1235, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1221, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-windows:before {
   content: "\f17a"; }
 
-/* line 1238, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1224, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-android:before {
   content: "\f17b"; }
 
-/* line 1241, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1227, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-linux:before {
   content: "\f17c"; }
 
-/* line 1244, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1230, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-dribbble:before {
   content: "\f17d"; }
 
-/* line 1247, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1233, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-skype:before {
   content: "\f17e"; }
 
-/* line 1250, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1236, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-foursquare:before {
   content: "\f180"; }
 
-/* line 1253, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1239, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-trello:before {
   content: "\f181"; }
 
-/* line 1256, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1242, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-female:before {
   content: "\f182"; }
 
-/* line 1259, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1245, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-male:before {
   content: "\f183"; }
 
-/* line 1262, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1248, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-gittip:before {
   content: "\f184"; }
 
-/* line 1265, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1251, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-sun-o:before {
   content: "\f185"; }
 
-/* line 1268, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1254, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-moon-o:before {
   content: "\f186"; }
 
-/* line 1271, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1257, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-archive:before {
   content: "\f187"; }
 
-/* line 1274, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1260, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-bug:before {
   content: "\f188"; }
 
-/* line 1277, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1263, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-vk:before {
   content: "\f189"; }
 
-/* line 1280, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1266, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-weibo:before {
   content: "\f18a"; }
 
-/* line 1283, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1269, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-renren:before {
   content: "\f18b"; }
 
-/* line 1286, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1272, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-pagelines:before {
   content: "\f18c"; }
 
-/* line 1289, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1275, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-stack-exchange:before {
   content: "\f18d"; }
 
-/* line 1292, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1278, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-arrow-circle-o-right:before {
   content: "\f18e"; }
 
-/* line 1295, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1281, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-arrow-circle-o-left:before {
   content: "\f190"; }
 
-/* line 1299, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1285, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-toggle-left:before, .fa-caret-square-o-left:before {
   content: "\f191"; }
 
-/* line 1302, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1288, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-dot-circle-o:before {
   content: "\f192"; }
 
-/* line 1305, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1291, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-wheelchair:before {
   content: "\f193"; }
 
-/* line 1308, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1294, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-vimeo-square:before {
   content: "\f194"; }
 
-/* line 1312, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1298, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-turkish-lira:before, .fa-try:before {
   content: "\f195"; }
 
-/* line 1315, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1301, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-plus-square-o:before {
   content: "\f196"; }
 
-/* line 1318, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1304, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-space-shuttle:before {
   content: "\f197"; }
 
-/* line 1321, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1307, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-slack:before {
   content: "\f198"; }
 
-/* line 1324, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1310, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-envelope-square:before {
   content: "\f199"; }
 
-/* line 1327, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1313, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-wordpress:before {
   content: "\f19a"; }
 
-/* line 1330, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1316, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-openid:before {
   content: "\f19b"; }
 
-/* line 1335, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1321, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-institution:before, .fa-bank:before, .fa-university:before {
   content: "\f19c"; }
 
-/* line 1339, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1325, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-mortar-board:before, .fa-graduation-cap:before {
   content: "\f19d"; }
 
-/* line 1342, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1328, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-yahoo:before {
   content: "\f19e"; }
 
-/* line 1345, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1331, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-google:before {
   content: "\f1a0"; }
 
-/* line 1348, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1334, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-reddit:before {
   content: "\f1a1"; }
 
-/* line 1351, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1337, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-reddit-square:before {
   content: "\f1a2"; }
 
-/* line 1354, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1340, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-stumbleupon-circle:before {
   content: "\f1a3"; }
 
-/* line 1357, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1343, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-stumbleupon:before {
   content: "\f1a4"; }
 
-/* line 1360, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1346, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-delicious:before {
   content: "\f1a5"; }
 
-/* line 1363, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1349, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-digg:before {
   content: "\f1a6"; }
 
-/* line 1366, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1352, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-pied-piper:before {
   content: "\f1a7"; }
 
-/* line 1369, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1355, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-pied-piper-alt:before {
   content: "\f1a8"; }
 
-/* line 1372, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1358, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-drupal:before {
   content: "\f1a9"; }
 
-/* line 1375, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1361, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-joomla:before {
   content: "\f1aa"; }
 
-/* line 1378, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1364, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-language:before {
   content: "\f1ab"; }
 
-/* line 1381, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1367, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-fax:before {
   content: "\f1ac"; }
 
-/* line 1384, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1370, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-building:before {
   content: "\f1ad"; }
 
-/* line 1387, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1373, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-child:before {
   content: "\f1ae"; }
 
-/* line 1390, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1376, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-paw:before {
   content: "\f1b0"; }
 
-/* line 1393, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1379, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-spoon:before {
   content: "\f1b1"; }
 
-/* line 1396, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1382, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-cube:before {
   content: "\f1b2"; }
 
-/* line 1399, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1385, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-cubes:before {
   content: "\f1b3"; }
 
-/* line 1402, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1388, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-behance:before {
   content: "\f1b4"; }
 
-/* line 1405, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1391, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-behance-square:before {
   content: "\f1b5"; }
 
-/* line 1408, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1394, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-steam:before {
   content: "\f1b6"; }
 
-/* line 1411, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1397, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-steam-square:before {
   content: "\f1b7"; }
 
-/* line 1414, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1400, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-recycle:before {
   content: "\f1b8"; }
 
-/* line 1418, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1404, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-automobile:before, .fa-car:before {
   content: "\f1b9"; }
 
-/* line 1422, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1408, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-cab:before, .fa-taxi:before {
   content: "\f1ba"; }
 
-/* line 1425, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1411, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-tree:before {
   content: "\f1bb"; }
 
-/* line 1428, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1414, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-spotify:before {
   content: "\f1bc"; }
 
-/* line 1431, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1417, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-deviantart:before {
   content: "\f1bd"; }
 
-/* line 1434, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1420, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-soundcloud:before {
   content: "\f1be"; }
 
-/* line 1437, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1423, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-database:before {
   content: "\f1c0"; }
 
-/* line 1440, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1426, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-file-pdf-o:before {
   content: "\f1c1"; }
 
-/* line 1443, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1429, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-file-word-o:before {
   content: "\f1c2"; }
 
-/* line 1446, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1432, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-file-excel-o:before {
   content: "\f1c3"; }
 
-/* line 1449, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1435, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-file-powerpoint-o:before {
   content: "\f1c4"; }
 
-/* line 1454, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1440, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-file-photo-o:before, .fa-file-picture-o:before, .fa-file-image-o:before {
   content: "\f1c5"; }
 
-/* line 1458, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1444, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-file-zip-o:before, .fa-file-archive-o:before {
   content: "\f1c6"; }
 
-/* line 1462, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1448, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-file-sound-o:before, .fa-file-audio-o:before {
   content: "\f1c7"; }
 
-/* line 1466, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1452, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-file-movie-o:before, .fa-file-video-o:before {
   content: "\f1c8"; }
 
-/* line 1469, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1455, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-file-code-o:before {
   content: "\f1c9"; }
 
-/* line 1472, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1458, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-vine:before {
   content: "\f1ca"; }
 
-/* line 1475, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1461, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-codepen:before {
   content: "\f1cb"; }
 
-/* line 1478, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1464, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-jsfiddle:before {
   content: "\f1cc"; }
 
-/* line 1485, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1471, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-life-bouy:before, .fa-life-buoy:before, .fa-life-saver:before, .fa-support:before, .fa-life-ring:before {
   content: "\f1cd"; }
 
-/* line 1488, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1474, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-circle-o-notch:before {
   content: "\f1ce"; }
 
-/* line 1492, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1478, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-ra:before, .fa-rebel:before {
   content: "\f1d0"; }
 
-/* line 1496, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1482, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-ge:before, .fa-empire:before {
   content: "\f1d1"; }
 
-/* line 1499, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1485, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-git-square:before {
   content: "\f1d2"; }
 
-/* line 1502, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1488, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-git:before {
   content: "\f1d3"; }
 
-/* line 1505, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1491, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-hacker-news:before {
   content: "\f1d4"; }
 
-/* line 1508, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1494, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-tencent-weibo:before {
   content: "\f1d5"; }
 
-/* line 1511, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1497, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-qq:before {
   content: "\f1d6"; }
 
-/* line 1515, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1501, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-wechat:before, .fa-weixin:before {
   content: "\f1d7"; }
 
-/* line 1519, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1505, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-send:before, .fa-paper-plane:before {
   content: "\f1d8"; }
 
-/* line 1523, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1509, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-send-o:before, .fa-paper-plane-o:before {
   content: "\f1d9"; }
 
-/* line 1526, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1512, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-history:before {
   content: "\f1da"; }
 
-/* line 1529, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1515, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-circle-thin:before {
   content: "\f1db"; }
 
-/* line 1532, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1518, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-header:before {
   content: "\f1dc"; }
 
-/* line 1535, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1521, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-paragraph:before {
   content: "\f1dd"; }
 
-/* line 1538, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1524, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-sliders:before {
   content: "\f1de"; }
 
-/* line 1541, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1527, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-share-alt:before {
   content: "\f1e0"; }
 
-/* line 1544, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1530, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-share-alt-square:before {
   content: "\f1e1"; }
 
-/* line 1547, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1533, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-bomb:before {
   content: "\f1e2"; }
 
-/* line 1551, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1537, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-soccer-ball-o:before, .fa-futbol-o:before {
   content: "\f1e3"; }
 
-/* line 1554, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1540, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-tty:before {
   content: "\f1e4"; }
 
-/* line 1557, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1543, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-binoculars:before {
   content: "\f1e5"; }
 
-/* line 1560, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1546, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-plug:before {
   content: "\f1e6"; }
 
-/* line 1563, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1549, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-slideshare:before {
   content: "\f1e7"; }
 
-/* line 1566, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1552, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-twitch:before {
   content: "\f1e8"; }
 
-/* line 1569, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1555, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-yelp:before {
   content: "\f1e9"; }
 
-/* line 1572, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1558, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-newspaper-o:before {
   content: "\f1ea"; }
 
-/* line 1575, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1561, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-wifi:before {
   content: "\f1eb"; }
 
-/* line 1578, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1564, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-calculator:before {
   content: "\f1ec"; }
 
-/* line 1581, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1567, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-paypal:before {
   content: "\f1ed"; }
 
-/* line 1584, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1570, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-google-wallet:before {
   content: "\f1ee"; }
 
-/* line 1587, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1573, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-cc-visa:before {
   content: "\f1f0"; }
 
-/* line 1590, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1576, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-cc-mastercard:before {
   content: "\f1f1"; }
 
-/* line 1593, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1579, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-cc-discover:before {
   content: "\f1f2"; }
 
-/* line 1596, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1582, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-cc-amex:before {
   content: "\f1f3"; }
 
-/* line 1599, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1585, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-cc-paypal:before {
   content: "\f1f4"; }
 
-/* line 1602, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1588, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-cc-stripe:before {
   content: "\f1f5"; }
 
-/* line 1605, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1591, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-bell-slash:before {
   content: "\f1f6"; }
 
-/* line 1608, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1594, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-bell-slash-o:before {
   content: "\f1f7"; }
 
-/* line 1611, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1597, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-trash:before {
   content: "\f1f8"; }
 
-/* line 1614, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1600, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-copyright:before {
   content: "\f1f9"; }
 
-/* line 1617, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1603, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-at:before {
   content: "\f1fa"; }
 
-/* line 1620, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1606, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-eyedropper:before {
   content: "\f1fb"; }
 
-/* line 1623, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1609, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-paint-brush:before {
   content: "\f1fc"; }
 
-/* line 1626, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1612, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-birthday-cake:before {
   content: "\f1fd"; }
 
-/* line 1629, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1615, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-area-chart:before {
   content: "\f1fe"; }
 
-/* line 1632, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1618, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-pie-chart:before {
   content: "\f200"; }
 
-/* line 1635, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1621, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-line-chart:before {
   content: "\f201"; }
 
-/* line 1638, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1624, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-lastfm:before {
   content: "\f202"; }
 
-/* line 1641, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1627, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-lastfm-square:before {
   content: "\f203"; }
 
-/* line 1644, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1630, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-toggle-off:before {
   content: "\f204"; }
 
-/* line 1647, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1633, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-toggle-on:before {
   content: "\f205"; }
 
-/* line 1650, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1636, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-bicycle:before {
   content: "\f206"; }
 
-/* line 1653, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1639, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-bus:before {
   content: "\f207"; }
 
-/* line 1656, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1642, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-ioxhost:before {
   content: "\f208"; }
 
-/* line 1659, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1645, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-angellist:before {
   content: "\f209"; }
 
-/* line 1662, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1648, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-cc:before {
   content: "\f20a"; }
 
-/* line 1667, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1653, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-shekel:before, .fa-sheqel:before, .fa-ils:before {
   content: "\f20b"; }
 
-/* line 1670, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/font-awesome */
+/* line 1656, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/font-awesome */
 .fa-meanpath:before {
   content: "\f20c"; }
 
@@ -2127,110 +2108,110 @@
   width: device-width;
   scale: 1; }
 
-/* line 9, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 9, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 html {
   font-family: "Open Sans";
   color: #222; }
 
-/* line 14, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 14, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 main p {
   padding: 0 2.2rem; }
 
-/* line 18, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 18, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 .img-flex {
   width: 100%; }
 
-/* line 24, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 24, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 *, *::before, *::after {
   -ms-box-sizing: border-box;
   -o-box-sizing: border-box;
   box-sizing: border-box; }
 
-/* line 32, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 32, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 a {
   width: 100%;
   height: 100%;
   color: white;
   text-decoration: none; }
 
-/* line 39, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 39, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 body {
   margin: 0em;
   padding: 0em;
   margin: 0;
   padding: 0; }
-  /* line 45, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+  /* line 45, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
   body.noscript .close-btn, body.noscript .toggle-btn {
     display: none; }
 
-/* line 52, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 52, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 *, *::before, *::after {
   -ms-box-sizing: border-box;
   -o-box-sizing: border-box;
   box-sizing: border-box; }
 
-/* line 60, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 60, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 article {
   margin: 0rem auto;
   padding-bottom: 3rem;
   max-width: 55rem; }
 
-/* line 66, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 66, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 article a {
   color: #222; }
 
-/* line 70, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 70, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 header {
   padding: 2rem 1rem 2rem;
   margin: 0;
   position: relative;
   background-color: #303030;
   height: 5rem; }
-  /* line 76, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+  /* line 76, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
   header .toggle-btn {
     position: absolute;
     right: 1em;
     top: 0; }
-  /* line 81, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+  /* line 81, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
   header h1 {
     font-size: 1rem; }
 
-/* line 86, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 86, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 .center {
   text-align: center; }
 
-/* line 90, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 90, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 .max {
   max-width: 70em;
   padding: 3rem;
   background-color: #f6f6f6; }
 
-/* line 96, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 96, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 .max p {
   margin: 1rem; }
 
-/* line 100, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 100, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 summary {
   color: #fff;
   background-color: #282828;
   font-size: 1.2em;
   text-align: center; }
 
-/* line 107, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 107, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 .banner-section {
   background: transparent url('../images/great-lakes.jpg') no-repeat center center;
   background-size: cover;
   margin: 0 auto;
   color: #fff; }
 
-/* line 114, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 114, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 .banner-section h2 {
   color: #fff;
   background-size: cover;
   padding: 14rem 0;
   margin: 0; }
 
-/* line 119, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 119, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 .banner-1 {
   background: transparent url('../images/1.jpg') no-repeat center center;
   background-size: cover;
@@ -2238,7 +2219,7 @@ summary {
   margin: 0;
   margin-top: 1rem; }
 
-/* line 125, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 125, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 .banner-2 {
   background: transparent url('../images/2.jpg') no-repeat center center;
   background-size: cover;
@@ -2246,7 +2227,7 @@ summary {
   margin: 0;
   margin-top: 1rem; }
 
-/* line 131, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 131, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 .banner-3 {
   background: transparent url('../images/3.jpg') no-repeat center center;
   background-size: cover;
@@ -2254,7 +2235,7 @@ summary {
   margin: 0;
   margin-top: 1rem; }
 
-/* line 137, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 137, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 .banner-4 {
   background: transparent url('../images/4.jpg') no-repeat center center;
   background-size: cover;
@@ -2262,7 +2243,7 @@ summary {
   margin: 0;
   margin-top: 1rem; }
 
-/* line 143, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 143, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 .banner-5 {
   background: transparent url('../images/5.jpg') no-repeat center center;
   background-size: cover;
@@ -2270,7 +2251,7 @@ summary {
   margin: 0;
   margin-top: 1rem; }
 
-/* line 149, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 149, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 .banner-6 {
   background: transparent url('../images/6.jpg') no-repeat center center;
   background-size: cover;
@@ -2278,7 +2259,7 @@ summary {
   margin: 0;
   margin-top: 1rem; }
 
-/* line 155, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 155, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 .banner-7 {
   background: transparent url('../images/7.jpg') no-repeat center center;
   background-size: cover;
@@ -2286,7 +2267,7 @@ summary {
   margin: 0;
   margin-top: 1rem; }
 
-/* line 161, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 161, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 .banner-8 {
   background: transparent url('../images/books.jpg') no-repeat center center;
   background-size: cover;
@@ -2294,7 +2275,7 @@ summary {
   margin: 0;
   margin-top: 1rem; }
 
-/* line 167, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 167, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 .banner-9 {
   background: transparent url('../images/hands.jpg') no-repeat center center;
   background-size: cover;
@@ -2302,11 +2283,11 @@ summary {
   margin: 0;
   margin-top: 1rem; }
 
-/* line 173, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 173, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 .article a {
   color: #282828; }
 
-/* line 177, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 177, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 .main-title {
   top: 2rem;
   left: 2rem;
@@ -2315,21 +2296,21 @@ summary {
   font-size: 1.6rem;
   position: absolute; }
 
-/* line 186, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 186, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 .navigation {
   background-color: #303030;
   color: white;
   text-align: center;
   font-size: 1rem; }
 
-/* line 193, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 193, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 .nav-logo {
   margin: 0;
   padding: 0;
   height: 30px;
   float: left; }
 
-/* line 201, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 201, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 .btn {
   display: inline-block;
   text-align: center;
@@ -2341,19 +2322,19 @@ summary {
   max-width: 10rem;
   margin: 0 0 5em 50%; }
 
-/* line 213, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 213, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 .btn:hover {
   background-color: #f6f6f6;
   color: #1dc4ca; }
 
-/* line 218, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 218, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 .navigation ul {
   margin: 0;
   padding: 0; }
-  /* line 220, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+  /* line 220, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
   .navigation ul li {
     list-style-type: none; }
-    /* line 222, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+    /* line 222, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
     .navigation ul li a {
       display: block;
       padding: 0.5em 1em;
@@ -2361,14 +2342,14 @@ summary {
       text-decoration: none; }
 
 @media only screen and (min-width: 45em) {
-  /* line 232, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+  /* line 232, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
   .navigation {
     text-align: center;
     float: right;
     display: inline;
     right: 2%; }
 
-  /* line 239, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+  /* line 239, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
   .navigation li {
     float: left;
     width: 33.33%;
@@ -2376,45 +2357,60 @@ summary {
     width: auto; }
  }
 
-/* line 247, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* ------------- footer ------------- */
+/* line 249, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
+.social-list {
+  display: block;
+  clear: both; }
+
+/* line 254, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
+.social-list li {
+  padding-left: 0;
+  clear: both; }
+
+/* line 260, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 .footer-nav {
   background-color: #303030;
   padding: 1rem 0; }
 
-/* line 253, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 266, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 .footer-nav ul {
   padding: 0; }
 
-/* line 257, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 270, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 .footer-nav li {
   display: block;
   text-align: center;
   padding: 0.5rem;
   color: #222; }
 
-/* line 264, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 277, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 footer {
   background-color: #282828;
   color: #f6f6f6;
   padding-bottom: 1.5rem; }
 
-/* line 270, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 283, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 footer p {
   padding-left: 1rem; }
 
 @media only screen and (min-width: 45em) {
-  /* line 275, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+  /* line 288, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
   .footer-nav li {
     display: inline; }
 
-  /* line 279, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+  /* line 292, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
   .footer-nav ul {
     margin: 0 auto;
     text-align: right;
     padding-right: 2rem; }
+
+  /* line 298, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
+  .fa-ul {
+    float: left; }
  }
 
-/* line 287, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 304, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 .toggle-btn, .close-btn {
   color: white;
   position: relative;
@@ -2424,14 +2420,14 @@ footer p {
   text-decoration: none;
   padding: 0 0.5rem;
   display: block; }
-  /* line 296, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+  /* line 313, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
   .toggle-btn i, .close-btn i {
     padding-top: 0.5rem; }
-  /* line 299, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+  /* line 316, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
   .toggle-btn span, .close-btn span {
     font-size: 0.3rem; }
 
-/* line 305, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 322, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 .close-btn {
   margin: 1em; }
 
@@ -2439,13 +2435,13 @@ footer p {
  * Sliding Navigation
  */
 @media only screen and (max-width: 45em) {
-  /* line 315, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+  /* line 332, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
   .site-wrapper {
     position: relative;
     overflow: hidden;
     width: 100%;
     z-index: 100; }
-    /* line 320, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+    /* line 337, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
     .site-wrapper .sliding-canvas {
       width: 100%;
       height: 100%;
@@ -2454,16 +2450,16 @@ footer p {
           -ms-transform: translateX(0);
               transform: translateX(0);
       transition: all 300ms ease-in-out; }
-    /* line 328, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+    /* line 345, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
     .site-wrapper[data-state='slide-open'] .sliding-canvas {
       -webkit-transform: translateX(-100%);
           -ms-transform: translateX(-100%);
               transform: translateX(-100%); }
-    /* line 332, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+    /* line 349, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
     .site-wrapper[data-state='slide-open'] {
       overflow: visible; }
 
-  /* line 339, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+  /* line 356, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
   .slide-menu {
     position: absolute;
     width: 100%;
@@ -2476,16 +2472,16 @@ footer p {
  }
 
 @media only screen and (min-width: 45em) {
-  /* line 355, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+  /* line 372, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
   .toggle-btn, .close-btn {
     display: none; }
  }
 
-/* line 360, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 377, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 .banner {
   width: 100%; }
 
-/* line 364, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 381, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 .count h3 {
   background-color: #f6f6f6;
   font-size: 1.9em;
@@ -2495,58 +2491,58 @@ footer p {
   font-weight: lighter;
   margin: 0; }
 
-/* line 374, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 391, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 body.noscript .slide-menu {
   position: static;
   right: auto; }
 
-/* line 379, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 396, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 div {
   margin: 0;
   padding: 0; }
 
-/* line 384, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 401, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 .img-flex {
   width: 100%; }
 
-/* line 388, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 405, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 .img-width {
   width: 30em; }
 
-/* line 392, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 409, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 .donate {
   width: 10em; }
 
-/* line 396, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 413, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 .close {
   width: 1.3em;
   margin: 1em;
   float: right; }
 
-/* line 402, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 419, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 div {
   margin: 0em;
   padding: 0em; }
 
-/* line 408, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 425, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 .margin-top {
   margin-top: 4em; }
 
-/* line 412, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 429, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 .left-align {
   float: left; }
 
-/* line 416, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 433, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 .center {
   width: 50% auto; }
 
-/* line 420, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 437, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 .hide-text {
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden; }
 
-/* line 426, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 443, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 .p-description {
   text-align: center;
   max-height: 0;
@@ -2554,37 +2550,37 @@ div {
   overflow: hidden;
   color: #004371; }
 
-/* line 437, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 454, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 .p-description[data-state="expanded"] {
   max-height: 22rem; }
 
-/* line 441, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 458, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 .down-arrow {
   height: 35px;
   width: 35px; }
 
-/* line 446, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 463, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 .arrow-div {
   text-align: center;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 5rem; }
 
-/* line 453, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 470, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 .media {
   margin: 0;
   padding: 0;
   list-style-type: none;
   text-align: center; }
 
-/* line 460, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 477, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 .media li {
   display: inline-block;
   padding: 3rem;
   margin: 0;
   width: 2rem; }
 
-/* line 467, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 484, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 .media i {
   border: solid 3px;
   padding: 0.7rem;
@@ -2592,45 +2588,45 @@ div {
   border-radius: 100px; }
 
 /* -------------- buckets -------------- */
-/* line 476, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 493, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 .bucket {
   padding: 6rem 0;
   margin: 1rem auto; }
 
 @media only screen and (min-width: 45em) {
-  /* line 482, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+  /* line 499, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
   .bucket {
     padding: 6rem 3rem; }
  }
 
-/* line 487, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 504, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 .bucket h2 {
   color: #282828; }
 
-/* line 491, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 508, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 .bucket-two {
   background: url('../images/6.jpg') no-repeat center;
   text-align: center; }
 
-/* line 496, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 513, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 .bucket-one {
   background: url('../images/4.jpg') no-repeat center; }
 
 /* ------------ tabs ---------------- */
-/* line 503, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 520, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 .tabs h2 {
   color: #222; }
 
-/* line 507, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 524, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 .tabs {
   padding-top: 2rem; }
 
-/* line 511, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 528, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 .etabs {
   margin: 0;
   padding: 0; }
 
-/* line 515, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 532, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 .tab {
   display: inline-block;
   zoom: 1;
@@ -2641,7 +2637,7 @@ div {
   -moz-border-radius: 4px 4px 0 0;
   -webkit-border-radius: 4px 4px 0 0; }
 
-/* line 525, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 542, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 .tab a {
   font-size: 14px;
   line-height: 2em;
@@ -2651,11 +2647,11 @@ div {
   text-decoration: none;
   color: #222; }
 
-/* line 535, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 552, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 .tab a:hover {
   text-decoration: none; }
 
-/* line 539, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 556, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 .tab.active {
   background: #f6f6f6;
   padding-top: 6px;
@@ -2663,42 +2659,42 @@ div {
   top: 1px;
   border-color: #282828; }
 
-/* line 547, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 564, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 .tab a.active {
   font-weight: bold; }
 
-/* line 551, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 568, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 .tab-container .panel-container {
   background: #f6f6f6;
   padding: 10px;
   -moz-border-radius: 0 4px 4px 4px;
   -webkit-border-radius: 0 4px 4px 4px; }
 
-/* line 558, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 575, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 .panel-container {
   margin-bottom: 10px; }
 
 /* ------------- grid  ------------- */
-/* line 563, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 580, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 .right {
   float: right; }
 
-/* line 567, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/main */
+/* line 584, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 .left {
   float: left; }
 
-/* line 1, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/typography */
+/* line 1, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/typography */
 .hide-text {
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
   display: block; }
 
-/* line 8, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/typography */
+/* line 8, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/typography */
 a:hover {
   color: #1dc4ca; }
 
-/* line 12, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/typography */
+/* line 12, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/typography */
 p {
   margin-top: 2.2em;
   font-family: Helvetica, Arial, sans-serif;
@@ -2706,7 +2702,7 @@ p {
   line-height: 1.5em;
   max-width: 100em; }
 
-/* line 20, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/typography */
+/* line 20, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/typography */
 h1 {
   font-family: 'FontAwesome', Helvetica, Arial, sans-serif;
   font-size: 1.9em;
@@ -2717,7 +2713,7 @@ h1 {
   margin: 0em;
   padding: 3m; }
 
-/* line 31, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/typography */
+/* line 31, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/typography */
 h2 {
   font-family: 'FontAwesome', Helvetica, Arial sans-serif;
   text-align: center;
@@ -2727,7 +2723,7 @@ h2 {
   margin: 1.2em 0em 0em 0em;
   padding: 0em; }
 
-/* line 41, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/typography */
+/* line 41, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/typography */
 h3 {
   font-family: 'FontAwesome', Helvetica, Arial sans-serif;
   text-align: center;
@@ -2735,7 +2731,7 @@ h3 {
   font-size: 1.3em;
   font-weight: bold; }
 
-/* line 49, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/typography */
+/* line 49, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/typography */
 h4 {
   font-family: 'FontAwesome', Helvetica, Arial, sans-serif;
   font-size: 1em;
@@ -2744,95 +2740,95 @@ h4 {
   padding: 0em;
   font-weight: lighter; }
 
-/* line 58, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/typography */
+/* line 58, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/typography */
 .white-background {
   background-color: #fff; }
 
-/* line 62, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/typography */
+/* line 62, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/typography */
 .white {
   color: white; }
 
-/* line 67, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/typography */
+/* line 67, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/typography */
 .yotta {
   font-size: 2.2807rem;
   line-height: 1.3154; }
 
-/* line 72, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/typography */
+/* line 72, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/typography */
 .zetta {
   font-size: 2.0273rem;
   line-height: 1.4798; }
 
-/* line 77, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/typography */
+/* line 77, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/typography */
 .exa {
   font-size: 1.802rem;
   line-height: 1.6648; }
 
-/* line 82, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/typography */
+/* line 82, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/typography */
 .peta {
   font-size: 1.6018rem;
   line-height: 1.8729; }
 
-/* line 87, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/typography */
+/* line 87, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/typography */
 .tera {
   font-size: 1.4238rem;
   line-height: 1.0535; }
 
-/* line 92, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/typography */
+/* line 92, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/typography */
 .giga {
   font-size: 1.2656rem;
   line-height: 1.1852; }
 
-/* line 97, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/typography */
+/* line 97, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/typography */
 h5, .mega {
   font-size: 1.125rem;
   line-height: 1.3333; }
 
-/* line 102, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/typography */
+/* line 102, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/typography */
 h6, .kilo {
   font-size: 1rem;
   line-height: 1.5; }
 
-/* line 108, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/typography */
+/* line 108, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/typography */
 small, .milli {
   font-size: 0.8889rem;
   line-height: 1.6875; }
 
-/* line 113, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/typography */
+/* line 113, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/typography */
 .micro {
   font-size: 0.7901rem;
   line-height: 1.4; }
 
-/* line 118, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/typography */
+/* line 118, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/typography */
 .light-blue {
   background-color: #21637F;
   margin: 0em;
   padding: 1.5em; }
 
-/* line 124, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/typography */
+/* line 124, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/typography */
 .dark-blue {
   background-color: #004371;
   margin: 0em;
   padding: 1.5em 0em; }
 
-/* line 130, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/typography */
+/* line 130, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/typography */
 .baby-blue {
   background-color: #B9E4F5;
   margin: 0em;
   padding: 2em 0em 4em 0em; }
 
-/* line 136, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/typography */
+/* line 136, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/typography */
 .black-text {
   color: black; }
 
-/* line 140, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/typography */
+/* line 140, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/typography */
 .blue-text {
   color: #004371; }
 
-/* line 144, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/typography */
+/* line 144, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/typography */
 .top-spacing {
   margin-top: 3.5em; }
 
-/* line 148, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/typography */
+/* line 148, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/typography */
 .contact {
   padding: 2rem 1rem;
   background-color: #282828;
@@ -2855,7 +2851,7 @@ small, .milli {
   }
 }
 */
-/* line 22, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/push-menu-custom */
+/* line 22, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/push-menu-custom */
 [class^="i-"]:before, [class*=" i-"]:before {
   font-family: "push-menu-custom";
   font-style: normal;
@@ -2880,17 +2876,17 @@ small, .milli {
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */ }
 
-/* line 53, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/push-menu-custom */
+/* line 53, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/push-menu-custom */
 .i-menu:before {
   content: '\e800'; }
 
 /* '' */
-/* line 54, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/push-menu-custom */
+/* line 54, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/push-menu-custom */
 .i-close:before {
   content: '\e801'; }
 
 /* '' */
-/* line 1, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/grid */
+/* line 1, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/grid */
 .grid {
   margin: 0;
   padding: 0;
@@ -2900,33 +2896,33 @@ small, .milli {
   display: -ms-flexbox;
   -ms-flex-flow: row wrap; }
 
-/* line 11, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/grid */
+/* line 11, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/grid */
 .gallery {
   padding: 1.5rem 1rem 2.5rem; }
 
-/* line 15, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/grid */
+/* line 15, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/grid */
 .piece {
   padding: 1.5rem 2rem; }
 
-/* line 19, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/grid */
+/* line 19, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/grid */
 .grid-bottom {
   -webkit-align-items: flex-end;
   -ms-align-items: flex-end; }
 
-/* line 24, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/grid */
+/* line 24, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/grid */
 figure {
   margin: 0.5rem 0.5rem 0; }
 
-/* line 28, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/grid */
+/* line 28, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/grid */
 .grid-middle {
   -webkit-align-items: center;
   -ms-align-items: center; }
 
-/* line 33, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/grid */
+/* line 33, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/grid */
 .opera-only :-o-prefocus, .grid {
   word-spacing: -0.43em; }
 
-/* line 37, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/grid */
+/* line 37, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/grid */
 .unit {
   letter-spacing: normal;
   text-rendering: auto;
@@ -2935,255 +2931,255 @@ figure {
   display: inline-block;
   visibility: visible; }
 
-/* line 46, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/grid */
+/* line 46, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/grid */
 .grid-bottom .unit {
   vertical-align: bottom; }
 
-/* line 50, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/grid */
+/* line 50, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/grid */
 .grid-middle .unit {
   vertical-align: middle; }
 
-/* line 54, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/grid */
+/* line 54, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/grid */
 .unit-xs-hidden {
   display: none;
   visibility: hidden; }
 
-/* line 59, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/grid */
+/* line 59, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/grid */
 .unit-xs-1 {
   display: block;
   visibility: visible;
   width: 100%; }
 
-/* line 65, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/grid */
+/* line 65, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/grid */
 .unit-offset-xs-0 {
   margin-left: 0; }
 
-/* line 69, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/grid */
+/* line 69, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/grid */
 .unit-xs-1-2 {
   width: 50%; }
 
-/* line 73, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/grid */
+/* line 73, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/grid */
 .unit-offset-xs-1-2 {
   margin-left: 50%; }
 
-/* line 77, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/grid */
+/* line 77, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/grid */
 .unit-xs-1-3 {
   width: 33.3333%; }
 
-/* line 81, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/grid */
+/* line 81, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/grid */
 .unit-offset-xs-1-3 {
   margin-left: 33.3333%; }
 
-/* line 85, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/grid */
+/* line 85, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/grid */
 .unit-xs-2-3 {
   width: 66.6667%; }
 
-/* line 89, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/grid */
+/* line 89, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/grid */
 .unit-offset-xs-2-3 {
   margin-left: 66.6667%; }
 
-/* line 93, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/grid */
+/* line 93, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/grid */
 .unit-xs-1-4 {
   width: 25%; }
 
-/* line 97, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/grid */
+/* line 97, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/grid */
 .unit-offset-xs-1-4 {
   margin-left: 25%; }
 
-/* line 101, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/grid */
+/* line 101, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/grid */
 .unit-xs-3-4 {
   width: 75%; }
 
-/* line 105, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/grid */
+/* line 105, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/grid */
 .unit-offset-xs-3-4 {
   margin-left: 75%; }
 
-/* line 109, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/grid */
+/* line 109, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/grid */
 .unit-xs-1-2, .unit-xs-1-3, .unit-xs-2-3, .unit-xs-1-4, .unit-xs-3-4 {
   display: inline-block;
   visibility: visible; }
 
 @media only screen and (min-width: 25em) {
-  /* line 116, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/grid */
+  /* line 116, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/grid */
   .unit-s-hidden {
     display: none;
     visibility: hidden; }
 
-  /* line 121, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/grid */
+  /* line 121, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/grid */
   .unit-s-1 {
     display: block;
     visibility: visible;
     width: 100%; }
 
-  /* line 127, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/grid */
+  /* line 127, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/grid */
   .unit-offset-s-0 {
     margin-left: 0; }
 
-  /* line 131, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/grid */
+  /* line 131, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/grid */
   .unit-s-1-2 {
     width: 50%; }
 
-  /* line 135, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/grid */
+  /* line 135, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/grid */
   .unit-offset-s-1-2 {
     margin-left: 50%; }
 
-  /* line 139, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/grid */
+  /* line 139, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/grid */
   .unit-s-1-3 {
     width: 33.3333%; }
 
-  /* line 143, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/grid */
+  /* line 143, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/grid */
   .unit-offset-s-1-3 {
     margin-left: 33.3333%; }
 
-  /* line 147, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/grid */
+  /* line 147, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/grid */
   .unit-s-2-3 {
     width: 66.6667%; }
 
-  /* line 151, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/grid */
+  /* line 151, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/grid */
   .unit-offset-s-2-3 {
     margin-left: 66.6667%; }
 
-  /* line 155, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/grid */
+  /* line 155, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/grid */
   .unit-s-1-4 {
     width: 25%; }
 
-  /* line 159, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/grid */
+  /* line 159, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/grid */
   .unit-offset-s-1-4 {
     margin-left: 25%; }
 
-  /* line 163, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/grid */
+  /* line 163, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/grid */
   .unit-s-3-4 {
     width: 75%; }
 
-  /* line 167, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/grid */
+  /* line 167, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/grid */
   .unit-offset-s-3-4 {
     margin-left: 75%; }
 
-  /* line 171, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/grid */
+  /* line 171, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/grid */
   .unit-s-1-2, .unit-s-1-3, .unit-s-2-3, .unit-s-1-4, .unit-s-3-4 {
     display: inline-block;
     visibility: visible; }
  }
 
 @media only screen and (min-width: 45em) {
-  /* line 180, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/grid */
+  /* line 180, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/grid */
   .unit-m-hidden {
     display: none;
     visibility: hidden; }
 
-  /* line 185, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/grid */
+  /* line 185, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/grid */
   .unit-m-1 {
     display: block;
     visibility: visible;
     width: 100%; }
 
-  /* line 191, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/grid */
+  /* line 191, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/grid */
   .unit-offset-m-0 {
     margin-left: 0; }
 
-  /* line 195, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/grid */
+  /* line 195, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/grid */
   .unit-m-1-2 {
     width: 50%; }
 
-  /* line 199, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/grid */
+  /* line 199, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/grid */
   .unit-offset-m-1-2 {
     margin-left: 50%; }
 
-  /* line 203, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/grid */
+  /* line 203, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/grid */
   .unit-m-1-3 {
     width: 33.3333%; }
 
-  /* line 207, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/grid */
+  /* line 207, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/grid */
   .unit-offset-m-1-3 {
     margin-left: 33.3333%; }
 
-  /* line 211, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/grid */
+  /* line 211, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/grid */
   .unit-m-2-3 {
     width: 66.6667%; }
 
-  /* line 215, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/grid */
+  /* line 215, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/grid */
   .unit-offset-m-2-3 {
     margin-left: 66.6667%; }
 
-  /* line 219, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/grid */
+  /* line 219, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/grid */
   .unit-m-1-4 {
     width: 25%; }
 
-  /* line 223, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/grid */
+  /* line 223, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/grid */
   .unit-offset-m-1-4 {
     margin-left: 25%; }
 
-  /* line 227, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/grid */
+  /* line 227, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/grid */
   .unit-m-3-4 {
     width: 75%; }
 
-  /* line 231, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/grid */
+  /* line 231, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/grid */
   .unit-offset-m-3-4 {
     margin-left: 75%; }
 
-  /* line 235, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/grid */
+  /* line 235, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/grid */
   .unit-m-1-2, .unit-m-1-3, .unit-m-2-3, .unit-m-1-4, .unit-m-3-4 {
     display: inline-block;
     visibility: visible; }
  }
 
 @media only screen and (min-width: 55em) {
-  /* line 244, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/grid */
+  /* line 244, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/grid */
   .unit-l-hidden {
     display: none;
     visibility: hidden; }
 
-  /* line 249, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/grid */
+  /* line 249, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/grid */
   .unit-l-1 {
     display: block;
     visibility: visible;
     width: 100%; }
 
-  /* line 255, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/grid */
+  /* line 255, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/grid */
   .unit-offset-l-0 {
     margin-left: 0; }
 
-  /* line 259, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/grid */
+  /* line 259, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/grid */
   .unit-l-1-2 {
     width: 49%; }
 
-  /* line 263, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/grid */
+  /* line 263, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/grid */
   .unit-offset-l-1-2 {
     margin-left: 50%; }
 
-  /* line 267, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/grid */
+  /* line 267, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/grid */
   .unit-l-1-3 {
     width: 33.3333%; }
 
-  /* line 271, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/grid */
+  /* line 271, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/grid */
   .unit-offset-l-1-3 {
     margin-left: 33.3333%; }
 
-  /* line 275, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/grid */
+  /* line 275, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/grid */
   .unit-l-2-3 {
     width: 66.6667%; }
 
-  /* line 279, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/grid */
+  /* line 279, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/grid */
   .unit-offset-l-2-3 {
     margin-left: 66.6667%; }
 
-  /* line 283, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/grid */
+  /* line 283, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/grid */
   .unit-l-1-4 {
     width: 25%; }
 
-  /* line 287, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/grid */
+  /* line 287, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/grid */
   .unit-offset-l-1-4 {
     margin-left: 25%; }
 
-  /* line 291, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/grid */
+  /* line 291, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/grid */
   .unit-l-3-4 {
     width: 75%; }
 
-  /* line 295, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/grid */
+  /* line 295, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/grid */
   .unit-offset-l-3-4 {
     margin-left: 75%; }
 
-  /* line 299, /Users/Brittany/Documents/AC3.5/Interactive/greatlakes/scss/components/grid */
+  /* line 299, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/grid */
   .unit-l-1-2, .unit-l-1-3, .unit-l-2-3, .unit-l-1-4, .unit-l-3-4 {
     display: inline-block;
     visibility: visible; }
