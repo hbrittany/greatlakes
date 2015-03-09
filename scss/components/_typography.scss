@@ -34,7 +34,7 @@ h2 {
     color: $light-grey;
     line-height: 1.5em;
     font-weight:lighter;
-    margin: 1.2em 0em 0.7em 0em;
+    margin: 1.2em 0em 0em 0em;
     padding: 0em;
 }
 
@@ -54,6 +54,12 @@ h4 {
     padding: 0em;
     font-weight:lighter;
 }
+
+.who-we-are-p {
+    color: white;
+    background-color: $dark;
+}
+
 
 .yotta {
     font-size: 2.2807rem;

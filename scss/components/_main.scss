@@ -96,9 +96,8 @@ summary {
 
 
 .banner-section {
-    background: transparent url('../images/great-lakes.jpg') no-repeat center;
+    background: transparent url('../images/great-lakes.jpg') no-repeat center center;
     background-size: cover;
-    padding: 14rem 0;
     margin: 0 auto;
     color: #fff;
 }
@@ -180,7 +179,7 @@ summary {
   color: $light-grey;
   border-radius: 20px;
   max-width: 10rem;
-  margin: 0 auto;
+    margin: 0 0 5em 50%;
 }
 
 .btn:hover{
