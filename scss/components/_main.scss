@@ -89,7 +89,12 @@ header {
 
 .max {
     max-width: 70em;
-    padding-bottom: 3rem;
+    padding: 3rem;
+    background-color: $light-grey;
+}
+
+.max p {
+  margin: 1rem;
 }
 
 summary {
