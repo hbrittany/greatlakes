@@ -2717,12 +2717,13 @@ a.tooltips span {
   color: #FFFFFF;
   background: #282828;
   height: 90px;
-  line-height: 90px;
+  line-height: 24px;
   text-align: center;
   visibility: hidden;
-  border-radius: 0px; }
+  border-radius: 0px;
+  padding: 0.5rem; }
 
-/* line 626, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
+/* line 627, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 a.tooltips span:after {
   content: '';
   position: absolute;
@@ -2735,7 +2736,7 @@ a.tooltips span:after {
   border-right: 8px solid transparent;
   border-left: 8px solid transparent; }
 
-/* line 637, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
+/* line 638, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 a:hover.tooltips span {
   visibility: visible;
   opacity: 0.9;
@@ -2745,7 +2746,7 @@ a:hover.tooltips span {
   z-index: 999; }
 
 @media only screen and (min-width: 79em) {
-  /* line 652, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
+  /* line 653, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
   .cal-table {
     margin-right: auto;
     margin-left: auto; }

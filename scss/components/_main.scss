@@ -618,10 +618,11 @@ a.tooltips span {
   color: #FFFFFF;
   background: $dark;
   height: 90px;
-  line-height: 90px;
+  line-height: 24px;
   text-align: center;
   visibility: hidden;
   border-radius: 0px;
+  padding:.5rem;
 }
 a.tooltips span:after {
   content: '';
