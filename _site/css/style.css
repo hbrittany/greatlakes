@@ -2798,7 +2798,7 @@ h3 {
   text-align: center;
   font-weight: 400;
   font-size: 1.3em;
-  font-weight: bold; }
+  font-weight: normal; }
 
 /* line 49, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/typography */
 h4 {
@@ -2817,87 +2817,91 @@ h4 {
 .white {
   color: white; }
 
-/* line 67, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/typography */
+/* line 66, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/typography */
+.teal {
+  color: #1dc4ca; }
+
+/* line 71, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/typography */
 .yotta {
   font-size: 2.2807rem;
   line-height: 1.3154; }
 
-/* line 72, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/typography */
+/* line 76, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/typography */
 .zetta {
   font-size: 2.0273rem;
   line-height: 1.4798; }
 
-/* line 77, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/typography */
+/* line 81, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/typography */
 .exa {
   font-size: 1.802rem;
   line-height: 1.6648; }
 
-/* line 82, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/typography */
+/* line 86, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/typography */
 .peta {
   font-size: 1.6018rem;
   line-height: 1.8729; }
 
-/* line 87, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/typography */
+/* line 91, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/typography */
 .tera {
   font-size: 1.4238rem;
   line-height: 1.0535; }
 
-/* line 92, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/typography */
+/* line 96, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/typography */
 .giga {
   font-size: 1.2656rem;
   line-height: 1.1852; }
 
-/* line 97, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/typography */
+/* line 101, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/typography */
 h5, .mega {
   font-size: 1.125rem;
   line-height: 1.3333; }
 
-/* line 102, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/typography */
+/* line 106, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/typography */
 h6, .kilo {
   font-size: 1rem;
   line-height: 1.5; }
 
-/* line 108, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/typography */
+/* line 112, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/typography */
 small, .milli {
   font-size: 0.8889rem;
   line-height: 1.6875; }
 
-/* line 113, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/typography */
+/* line 117, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/typography */
 .micro {
   font-size: 0.7901rem;
   line-height: 1.4; }
 
-/* line 118, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/typography */
+/* line 122, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/typography */
 .light-blue {
   background-color: #21637F;
   margin: 0em;
   padding: 1.5em; }
 
-/* line 124, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/typography */
+/* line 128, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/typography */
 .dark-blue {
   background-color: #004371;
   margin: 0em;
   padding: 1.5em 0em; }
 
-/* line 130, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/typography */
+/* line 134, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/typography */
 .baby-blue {
   background-color: #B9E4F5;
   margin: 0em;
   padding: 2em 0em 4em 0em; }
 
-/* line 136, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/typography */
+/* line 140, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/typography */
 .black-text {
   color: black; }
 
-/* line 140, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/typography */
+/* line 144, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/typography */
 .blue-text {
   color: #004371; }
 
-/* line 144, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/typography */
+/* line 148, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/typography */
 .top-spacing {
   margin-top: 3.5em; }
 
-/* line 148, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/typography */
+/* line 152, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/typography */
 .contact {
   padding: 2rem 1rem;
   background-color: #282828;
