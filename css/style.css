@@ -2671,36 +2671,81 @@ div {
 
 /* ---- Calendar ----- */
 /* line 576, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
+.cal-table {
+  padding: 0;
+  margin-right: auto;
+  margin-left: auto; }
+
+/* line 582, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 .cal-h2 {
   margin-right: auto;
   margin-left: auto;
   padding-bottom: 1rem; }
 
-/* line 582, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
-.calendar {
-  margin-right: auto;
-  margin-left: auto; }
-
-/* line 587, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
+/* line 588, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 th {
   background-color: #1dc4ca;
   color: #FFF;
   padding: 1.75rem;
   margin: 0; }
 
-/* line 594, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
+/* line 595, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 .th-day {
   color: #282828;
   background-color: #FFF;
   padding: 1rem; }
 
-/* line 600, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
+/* line 601, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
 td {
   padding-bottom: 1rem;
   text-align: center; }
 
+/* line 606, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
+.event {
+  background-color: #f6f6f6;
+  padding: 10px; }
+
+/* line 611, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
+a.tooltips {
+  position: relative;
+  display: inline; }
+
+/* line 615, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
+a.tooltips span {
+  position: absolute;
+  width: 140px;
+  color: #FFFFFF;
+  background: #282828;
+  height: 90px;
+  line-height: 90px;
+  text-align: center;
+  visibility: hidden;
+  border-radius: 0px; }
+
+/* line 626, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
+a.tooltips span:after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -8px;
+  width: 0;
+  height: 0;
+  border-top: 8px solid #282828;
+  border-right: 8px solid transparent;
+  border-left: 8px solid transparent; }
+
+/* line 637, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
+a:hover.tooltips span {
+  visibility: visible;
+  opacity: 0.9;
+  bottom: 30px;
+  left: 50%;
+  margin-left: -76px;
+  z-index: 999; }
+
 @media only screen and (min-width: 79em) {
-  /* line 607, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
+  /* line 652, /Users/meganjd/Desktop/School/Graphic Design Year 3/sem-2/web-dev/greatlakes/scss/components/main */
   .cal-table {
     margin-right: auto;
     margin-left: auto; }
