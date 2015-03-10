@@ -3253,3 +3253,35 @@ figure {
     display: inline-block;
     visibility: visible; }
  }
+
+/* line 1, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/media-object */
+.media {
+  overflow: hidden; }
+
+/* line 5, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/media-object */
+.media-img {
+  float: left;
+  margin: 0 10px 0 0; }
+
+/* line 10, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/media-object */
+.media-body {
+  overflow: hidden; }
+
+/* line 14, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/media-object */
+.media-img-reversed {
+  float: right;
+  margin: 0 0 0 10px; }
+
+/* line 19, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/media-object */
+.media-img-stacked {
+  float: none;
+  margin: 0; }
+
+/* line 24, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/media-object */
+.media-body {
+  overflow: hidden; }
+
+/* line 28, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/media-object */
+.bucket-img {
+  width: 430px;
+  height: 280px; }
