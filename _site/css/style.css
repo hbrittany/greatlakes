@@ -3285,3 +3285,51 @@ figure {
 .bucket-img {
   width: 430px;
   height: 280px; }
+
+/* line 33, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/media-object */
+.grid {
+  margin: 0;
+  padding: 0;
+  text-rendering: optimizespeed;
+  display: -webkit-flex;
+  -webkit-flex-flow: row wrap;
+  display: -ms-flexbox;
+  -ms-flex-flow: row wrap; }
+
+/* line 43, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/media-object */
+.screen {
+  letter-spacing: normal;
+  text-rendering: auto;
+  vertical-align: top;
+  word-spacing: normal; }
+
+@media only screen and (max-width: 30em) {
+  /* line 54, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/media-object */
+  .screen-s-inv {
+    visibility: hidden;
+    display: none; }
+ }
+
+@media only screen and (min-width: 30em) {
+  /* line 64, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/media-object */
+  .screen-m-v {
+    visibility: visible;
+    display: block; }
+
+  /* line 69, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/media-object */
+  .screen-m-inv {
+    display: none;
+    visibility: hidden; }
+ }
+
+@media only screen and (min-width: 55em) {
+  /* line 82, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/media-object */
+  .screen-l-v {
+    visibility: visible;
+    display: block; }
+
+  /* line 87, /Users/SebastianNadeau/Desktop/greatlakes/scss/components/media-object */
+  .screen-l-inv {
+    display: none;
+    visibility: hidden; }
+ }
