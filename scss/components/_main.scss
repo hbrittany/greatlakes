@@ -454,10 +454,11 @@ div {
 }
 
 .media {
-  margin: 0;
-  padding: 0;
+  margin: 1rem;
   list-style-type: none;
   text-align: center;
+  background-color: #eee;
+  max-width: 25rem;
 }
 
 .media li { 
@@ -468,6 +469,7 @@ div {
 }
 
 .media i {
+
   border: solid 3px;
   padding: 0.7rem;
   border-color: $light-grey;
