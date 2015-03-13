@@ -454,28 +454,18 @@ div {
 }
 
 .media {
-  margin: 1rem;
   list-style-type: none;
   text-align: center;
-  background-color: #eee;
   max-width: 25rem;
 }
 
-.media li { 
-  display: inline-block;
-  padding: 3rem;
-  margin: 0;
-  width: 2rem;
+.media-1 {
+  background-color: #eee;
 }
 
-.media i {
-
-  border: solid 3px;
-  padding: 0.7rem;
-  border-color: $light-grey;
-  border-radius: 100px;
+.media-2 {
+  background-color: $light-grey;
 }
-
 /* -------------- buckets -------------- */
 
 .bucket {
